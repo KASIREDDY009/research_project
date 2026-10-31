@@ -1,0 +1,4 @@
+memory_size        = 512
+timeout_seconds    = 10
+log_level          = "INFO"
+log_retention_days = 14

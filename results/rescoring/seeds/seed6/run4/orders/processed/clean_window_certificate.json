@@ -1,0 +1,13 @@
+{
+  "type": "clean_window_certificate",
+  "created_utc": "2026-11-14T12:51:17.710533+00:00",
+  "train_start": "1794209949385",
+  "train_end": "1794210395904",
+  "n_events": 6208,
+  "n_failed_call_lines": 0,
+  "seed": 6,
+  "status": "certified_clean",
+  "extra": {
+    "app": "orders"
+  }
+}

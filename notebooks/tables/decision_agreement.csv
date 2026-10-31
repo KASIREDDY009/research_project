@@ -1,0 +1,25 @@
+application,family,hypothesis,rejected_pooled,rejected_in_sets,rejected_in_seeds
+orders,Isolation Forest,H1,True,1 of 3,7 of 10
+orders,Isolation Forest,H2,True,3 of 3,10 of 10
+orders,Isolation Forest,H3,True,3 of 3,8 of 10
+orders,Isolation Forest,H4,True,3 of 3,10 of 10
+orders,Isolation Forest,H5,True,3 of 3,10 of 10
+orders,Isolation Forest,H6,True,2 of 3,10 of 10
+orders,DeepLog-style,H1,True,1 of 3,8 of 10
+orders,DeepLog-style,H2,True,3 of 3,10 of 10
+orders,DeepLog-style,H3,False,1 of 3,1 of 10
+orders,DeepLog-style,H4,True,3 of 3,10 of 10
+orders,DeepLog-style,H5,True,3 of 3,10 of 10
+orders,DeepLog-style,H6,True,2 of 3,10 of 10
+bookings,Isolation Forest,H1,True,1 of 3,8 of 10
+bookings,Isolation Forest,H2,True,3 of 3,10 of 10
+bookings,Isolation Forest,H3,False,0 of 3,8 of 10
+bookings,Isolation Forest,H4,True,3 of 3,10 of 10
+bookings,Isolation Forest,H5,True,3 of 3,10 of 10
+bookings,Isolation Forest,H6,True,2 of 3,10 of 10
+bookings,DeepLog-style,H1,False,0 of 3,5 of 10
+bookings,DeepLog-style,H2,True,3 of 3,10 of 10
+bookings,DeepLog-style,H3,True,1 of 3,6 of 10
+bookings,DeepLog-style,H4,True,3 of 3,10 of 10
+bookings,DeepLog-style,H5,True,3 of 3,10 of 10
+bookings,DeepLog-style,H6,True,2 of 3,10 of 10

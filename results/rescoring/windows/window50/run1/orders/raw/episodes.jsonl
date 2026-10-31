@@ -1,0 +1,300 @@
+{"category": "resource", "episode": "resource-56", "inject_ms": 1793964046537, "restored_ms": 1793964091555, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "resource", "episode": "resource-42", "inject_ms": 1793964100682, "restored_ms": 1793964145592, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "permission", "episode": "permission-25", "inject_ms": 1793964154396, "restored_ms": 1793964160414, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "config", "episode": "config-19", "inject_ms": 1793964167305, "restored_ms": 1793964173317, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "config", "episode": "config-51", "inject_ms": 1793964180402, "restored_ms": 1793964186320, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "latency", "episode": "latency-33", "strength_ms": 6000, "inject_ms": 1793964195768, "restored_ms": 1793964214212, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "config", "episode": "config-42", "inject_ms": 1793964221097, "restored_ms": 1793964227034, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "config", "episode": "config-36", "inject_ms": 1793964234904, "restored_ms": 1793964240845, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "latency", "episode": "latency-07", "strength_ms": 6000, "inject_ms": 1793964248101, "restored_ms": 1793964266098, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "resource", "episode": "resource-20", "inject_ms": 1793964274114, "restored_ms": 1793964318963, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "latency", "episode": "latency-25", "strength_ms": 6000, "inject_ms": 1793964327867, "restored_ms": 1793964346053, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "latency", "episode": "latency-38", "strength_ms": 4000, "inject_ms": 1793964354192, "restored_ms": 1793964368377, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "latency", "episode": "latency-42", "strength_ms": 4000, "inject_ms": 1793964375637, "restored_ms": 1793964389593, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "timeout", "episode": "timeout-53", "inject_ms": 1793964397952, "restored_ms": 1793964411356, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "timeout", "episode": "timeout-39", "inject_ms": 1793964418762, "restored_ms": 1793964431501, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "latency", "episode": "latency-24", "strength_ms": 4000, "inject_ms": 1793964440298, "restored_ms": 1793964454229, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "resource", "episode": "resource-47", "inject_ms": 1793964463391, "restored_ms": 1793964508313, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "timeout", "episode": "timeout-24", "inject_ms": 1793964515835, "restored_ms": 1793964528447, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "latency", "episode": "latency-12", "strength_ms": 4000, "inject_ms": 1793964536443, "restored_ms": 1793964550289, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "config", "episode": "config-54", "inject_ms": 1793964558610, "restored_ms": 1793964564544, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "latency", "episode": "latency-43", "strength_ms": 6000, "inject_ms": 1793964572081, "restored_ms": 1793964590084, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "latency", "episode": "latency-50", "strength_ms": 4000, "inject_ms": 1793964599623, "restored_ms": 1793964613907, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "latency", "episode": "latency-26", "strength_ms": 4000, "inject_ms": 1793964621909, "restored_ms": 1793964636369, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "permission", "episode": "permission-05", "inject_ms": 1793964644067, "restored_ms": 1793964649998, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "permission", "episode": "permission-30", "inject_ms": 1793964657362, "restored_ms": 1793964663716, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "resource", "episode": "resource-37", "inject_ms": 1793964670999, "restored_ms": 1793964716749, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "latency", "episode": "latency-19", "strength_ms": 6000, "inject_ms": 1793964724406, "restored_ms": 1793964742432, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "timeout", "episode": "timeout-47", "inject_ms": 1793964751017, "restored_ms": 1793964763624, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "permission", "episode": "permission-19", "inject_ms": 1793964770544, "restored_ms": 1793964776464, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "latency", "episode": "latency-52", "strength_ms": 4000, "inject_ms": 1793964784605, "restored_ms": 1793964799107, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "permission", "episode": "permission-56", "inject_ms": 1793964806950, "restored_ms": 1793964812693, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "resource", "episode": "resource-35", "inject_ms": 1793964820181, "restored_ms": 1793964865595, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "resource", "episode": "resource-39", "inject_ms": 1793964875067, "restored_ms": 1793964920004, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "timeout", "episode": "timeout-54", "inject_ms": 1793964928875, "restored_ms": 1793964941637, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "permission", "episode": "permission-40", "inject_ms": 1793964951521, "restored_ms": 1793964957553, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "permission", "episode": "permission-31", "inject_ms": 1793964966197, "restored_ms": 1793964972756, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "permission", "episode": "permission-42", "inject_ms": 1793964981234, "restored_ms": 1793964987203, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "resource", "episode": "resource-21", "inject_ms": 1793964994127, "restored_ms": 1793965038963, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "config", "episode": "config-16", "inject_ms": 1793965047930, "restored_ms": 1793965054630, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "timeout", "episode": "timeout-40", "inject_ms": 1793965062548, "restored_ms": 1793965075366, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "latency", "episode": "latency-04", "strength_ms": 4000, "inject_ms": 1793965082522, "restored_ms": 1793965096685, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "resource", "episode": "resource-34", "inject_ms": 1793965105992, "restored_ms": 1793965151091, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "permission", "episode": "permission-12", "inject_ms": 1793965159547, "restored_ms": 1793965165748, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "resource", "episode": "resource-03", "inject_ms": 1793965174430, "restored_ms": 1793965220945, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "timeout", "episode": "timeout-38", "inject_ms": 1793965230272, "restored_ms": 1793965243395, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "latency", "episode": "latency-58", "strength_ms": 4000, "inject_ms": 1793965252084, "restored_ms": 1793965266177, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "config", "episode": "config-26", "inject_ms": 1793965273522, "restored_ms": 1793965279155, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "timeout", "episode": "timeout-26", "inject_ms": 1793965287504, "restored_ms": 1793965300785, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "latency", "episode": "latency-15", "strength_ms": 6000, "inject_ms": 1793965309349, "restored_ms": 1793965327697, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "permission", "episode": "permission-29", "inject_ms": 1793965336091, "restored_ms": 1793965342673, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "latency", "episode": "latency-11", "strength_ms": 6000, "inject_ms": 1793965350764, "restored_ms": 1793965368985, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "config", "episode": "config-44", "inject_ms": 1793965378555, "restored_ms": 1793965385143, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "config", "episode": "config-56", "inject_ms": 1793965396394, "restored_ms": 1793965402495, "burst": 2, "burst_faulty": 2, "gap_faulty": 1}
+{"category": "config", "episode": "config-32", "inject_ms": 1793965417178, "restored_ms": 1793965423644, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "config", "episode": "config-15", "inject_ms": 1793965433986, "restored_ms": 1793965441307, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "permission", "episode": "permission-35", "inject_ms": 1793965450951, "restored_ms": 1793965457074, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "timeout", "episode": "timeout-33", "inject_ms": 1793965465423, "restored_ms": 1793965478776, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "latency", "episode": "latency-39", "strength_ms": 6000, "inject_ms": 1793965488568, "restored_ms": 1793965507059, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "config", "episode": "config-10", "inject_ms": 1793965517589, "restored_ms": 1793965524080, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "permission", "episode": "permission-36", "inject_ms": 1793965532699, "restored_ms": 1793965539812, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "config", "episode": "config-37", "inject_ms": 1793965550871, "restored_ms": 1793965557113, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "permission", "episode": "permission-10", "inject_ms": 1793965565780, "restored_ms": 1793965573364, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "resource", "episode": "resource-31", "inject_ms": 1793965582338, "restored_ms": 1793965627597, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "timeout", "episode": "timeout-14", "inject_ms": 1793965637034, "restored_ms": 1793965649909, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "resource", "episode": "resource-29", "inject_ms": 1793965660451, "restored_ms": 1793965705510, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "config", "episode": "config-21", "inject_ms": 1793965715505, "restored_ms": 1793965721969, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "permission", "episode": "permission-09", "inject_ms": 1793965730756, "restored_ms": 1793965737177, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "latency", "episode": "latency-06", "strength_ms": 4000, "inject_ms": 1793965745390, "restored_ms": 1793965759723, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "permission", "episode": "permission-06", "inject_ms": 1793965769746, "restored_ms": 1793965776264, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "resource", "episode": "resource-30", "inject_ms": 1793965785937, "restored_ms": 1793965832064, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "permission", "episode": "permission-16", "inject_ms": 1793965840080, "restored_ms": 1793965846097, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "permission", "episode": "permission-38", "inject_ms": 1793965854337, "restored_ms": 1793965860150, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "latency", "episode": "latency-34", "strength_ms": 4000, "inject_ms": 1793965868377, "restored_ms": 1793965882493, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "latency", "episode": "latency-27", "strength_ms": 6000, "inject_ms": 1793965890677, "restored_ms": 1793965908824, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "latency", "episode": "latency-29", "strength_ms": 6000, "inject_ms": 1793965917259, "restored_ms": 1793965935161, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "config", "episode": "config-13", "inject_ms": 1793965943650, "restored_ms": 1793965949803, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "timeout", "episode": "timeout-29", "inject_ms": 1793965957193, "restored_ms": 1793965970032, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "timeout", "episode": "timeout-46", "inject_ms": 1793965978252, "restored_ms": 1793965990931, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "timeout", "episode": "timeout-44", "inject_ms": 1793965999379, "restored_ms": 1793966012109, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "config", "episode": "config-23", "inject_ms": 1793966019684, "restored_ms": 1793966025826, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "config", "episode": "config-27", "inject_ms": 1793966032745, "restored_ms": 1793966039025, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "config", "episode": "config-06", "inject_ms": 1793966046042, "restored_ms": 1793966054913, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "config", "episode": "config-20", "inject_ms": 1793966063107, "restored_ms": 1793966069243, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "config", "episode": "config-39", "inject_ms": 1793966076928, "restored_ms": 1793966082889, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "config", "episode": "config-09", "inject_ms": 1793966090284, "restored_ms": 1793966096513, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "permission", "episode": "permission-54", "inject_ms": 1793966104001, "restored_ms": 1793966110518, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "config", "episode": "config-04", "inject_ms": 1793966121176, "restored_ms": 1793966127135, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "permission", "episode": "permission-57", "inject_ms": 1793966135544, "restored_ms": 1793966141602, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "resource", "episode": "resource-46", "inject_ms": 1793966150663, "restored_ms": 1793966195740, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "timeout", "episode": "timeout-32", "inject_ms": 1793966203488, "restored_ms": 1793966216383, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "timeout", "episode": "timeout-19", "inject_ms": 1793966226168, "restored_ms": 1793966238688, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "permission", "episode": "permission-50", "inject_ms": 1793966249753, "restored_ms": 1793966255915, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "resource", "episode": "resource-25", "inject_ms": 1793966266701, "restored_ms": 1793966311822, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "latency", "episode": "latency-02", "strength_ms": 4000, "inject_ms": 1793966320249, "restored_ms": 1793966334374, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "permission", "episode": "permission-02", "inject_ms": 1793966342861, "restored_ms": 1793966349556, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "permission", "episode": "permission-55", "inject_ms": 1793966359700, "restored_ms": 1793966365600, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "latency", "episode": "latency-00", "strength_ms": 4000, "inject_ms": 1793966373485, "restored_ms": 1793966387663, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "permission", "episode": "permission-26", "inject_ms": 1793966397332, "restored_ms": 1793966403679, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "timeout", "episode": "timeout-22", "inject_ms": 1793966411828, "restored_ms": 1793966424678, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "timeout", "episode": "timeout-43", "inject_ms": 1793966433799, "restored_ms": 1793966446418, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "resource", "episode": "resource-17", "inject_ms": 1793966455359, "restored_ms": 1793966500390, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "latency", "episode": "latency-36", "strength_ms": 4000, "inject_ms": 1793966508172, "restored_ms": 1793966522971, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "resource", "episode": "resource-43", "inject_ms": 1793966529753, "restored_ms": 1793966574689, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "permission", "episode": "permission-24", "inject_ms": 1793966582207, "restored_ms": 1793966588219, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "config", "episode": "config-41", "inject_ms": 1793966595601, "restored_ms": 1793966601759, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "permission", "episode": "permission-53", "inject_ms": 1793966608435, "restored_ms": 1793966614521, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "resource", "episode": "resource-11", "inject_ms": 1793966621681, "restored_ms": 1793966666748, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "permission", "episode": "permission-49", "inject_ms": 1793966675190, "restored_ms": 1793966681203, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "permission", "episode": "permission-39", "inject_ms": 1793966689228, "restored_ms": 1793966695166, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "timeout", "episode": "timeout-15", "inject_ms": 1793966702800, "restored_ms": 1793966715887, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "resource", "episode": "resource-13", "inject_ms": 1793966722888, "restored_ms": 1793966767796, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "latency", "episode": "latency-55", "strength_ms": 6000, "inject_ms": 1793966774739, "restored_ms": 1793966792904, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "resource", "episode": "resource-27", "inject_ms": 1793966801480, "restored_ms": 1793966846697, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "resource", "episode": "resource-28", "inject_ms": 1793966854499, "restored_ms": 1793966899525, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "config", "episode": "config-29", "inject_ms": 1793966907232, "restored_ms": 1793966913362, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "resource", "episode": "resource-51", "inject_ms": 1793966920208, "restored_ms": 1793966965356, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "permission", "episode": "permission-37", "inject_ms": 1793966972292, "restored_ms": 1793966978785, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "timeout", "episode": "timeout-36", "inject_ms": 1793966987523, "restored_ms": 1793967000197, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "config", "episode": "config-22", "inject_ms": 1793967007404, "restored_ms": 1793967013299, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "permission", "episode": "permission-34", "inject_ms": 1793967020008, "restored_ms": 1793967026084, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "resource", "episode": "resource-52", "inject_ms": 1793967033943, "restored_ms": 1793967078834, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "timeout", "episode": "timeout-06", "inject_ms": 1793967086743, "restored_ms": 1793967099868, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "timeout", "episode": "timeout-01", "inject_ms": 1793967107491, "restored_ms": 1793967119927, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "config", "episode": "config-07", "inject_ms": 1793967126542, "restored_ms": 1793967132410, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "latency", "episode": "latency-57", "strength_ms": 6000, "inject_ms": 1793967139127, "restored_ms": 1793967156972, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "permission", "episode": "permission-20", "inject_ms": 1793967163941, "restored_ms": 1793967169830, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "resource", "episode": "resource-16", "inject_ms": 1793967176589, "restored_ms": 1793967221428, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "permission", "episode": "permission-17", "inject_ms": 1793967228434, "restored_ms": 1793967234318, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "config", "episode": "config-14", "inject_ms": 1793967241188, "restored_ms": 1793967246962, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "timeout", "episode": "timeout-34", "inject_ms": 1793967253662, "restored_ms": 1793967266166, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "permission", "episode": "permission-47", "inject_ms": 1793967273170, "restored_ms": 1793967278882, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "permission", "episode": "permission-28", "inject_ms": 1793967285663, "restored_ms": 1793967291465, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "timeout", "episode": "timeout-57", "inject_ms": 1793967298018, "restored_ms": 1793967310722, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "config", "episode": "config-03", "inject_ms": 1793967317543, "restored_ms": 1793967323298, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "config", "episode": "config-11", "inject_ms": 1793967330133, "restored_ms": 1793967336117, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "latency", "episode": "latency-22", "strength_ms": 4000, "inject_ms": 1793967342913, "restored_ms": 1793967356874, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "config", "episode": "config-55", "inject_ms": 1793967363517, "restored_ms": 1793967369358, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "latency", "episode": "latency-35", "strength_ms": 6000, "inject_ms": 1793967375932, "restored_ms": 1793967393755, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "permission", "episode": "permission-21", "inject_ms": 1793967400206, "restored_ms": 1793967405972, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "permission", "episode": "permission-18", "inject_ms": 1793967412530, "restored_ms": 1793967418343, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "latency", "episode": "latency-53", "strength_ms": 6000, "inject_ms": 1793967425237, "restored_ms": 1793967443183, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "config", "episode": "config-05", "inject_ms": 1793967451149, "restored_ms": 1793967457666, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "timeout", "episode": "timeout-41", "inject_ms": 1793967464011, "restored_ms": 1793967476786, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "permission", "episode": "permission-23", "inject_ms": 1793967484179, "restored_ms": 1793967489956, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "permission", "episode": "permission-46", "inject_ms": 1793967497243, "restored_ms": 1793967502965, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "timeout", "episode": "timeout-55", "inject_ms": 1793967509849, "restored_ms": 1793967522523, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "permission", "episode": "permission-45", "inject_ms": 1793967529548, "restored_ms": 1793967535010, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "resource", "episode": "resource-09", "inject_ms": 1793967542297, "restored_ms": 1793967587046, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "resource", "episode": "resource-22", "inject_ms": 1793967593905, "restored_ms": 1793967638822, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "timeout", "episode": "timeout-58", "inject_ms": 1793967645499, "restored_ms": 1793967657944, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "config", "episode": "config-24", "inject_ms": 1793967664731, "restored_ms": 1793967670528, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "resource", "episode": "resource-06", "inject_ms": 1793967676906, "restored_ms": 1793967721441, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "timeout", "episode": "timeout-17", "inject_ms": 1793967728120, "restored_ms": 1793967740808, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "permission", "episode": "permission-00", "inject_ms": 1793967747513, "restored_ms": 1793967753366, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "resource", "episode": "resource-01", "inject_ms": 1793967760795, "restored_ms": 1793967805572, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "latency", "episode": "latency-28", "strength_ms": 4000, "inject_ms": 1793967812705, "restored_ms": 1793967826291, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "config", "episode": "config-31", "inject_ms": 1793967832913, "restored_ms": 1793967838521, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "timeout", "episode": "timeout-04", "inject_ms": 1793967845044, "restored_ms": 1793967857593, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "config", "episode": "config-45", "inject_ms": 1793967864089, "restored_ms": 1793967869866, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "resource", "episode": "resource-54", "inject_ms": 1793967876353, "restored_ms": 1793967921251, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "resource", "episode": "resource-23", "inject_ms": 1793967927906, "restored_ms": 1793967972773, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "timeout", "episode": "timeout-21", "inject_ms": 1793967979434, "restored_ms": 1793967991789, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "timeout", "episode": "timeout-25", "inject_ms": 1793967998059, "restored_ms": 1793968010617, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "latency", "episode": "latency-45", "strength_ms": 6000, "inject_ms": 1793968017308, "restored_ms": 1793968034980, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "timeout", "episode": "timeout-03", "inject_ms": 1793968041588, "restored_ms": 1793968054309, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "latency", "episode": "latency-31", "strength_ms": 6000, "inject_ms": 1793968060849, "restored_ms": 1793968078429, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "config", "episode": "config-49", "inject_ms": 1793968085111, "restored_ms": 1793968091264, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "latency", "episode": "latency-40", "strength_ms": 4000, "inject_ms": 1793968097917, "restored_ms": 1793968111535, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "timeout", "episode": "timeout-23", "inject_ms": 1793968118015, "restored_ms": 1793968130589, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "timeout", "episode": "timeout-12", "inject_ms": 1793968137608, "restored_ms": 1793968150257, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "permission", "episode": "permission-33", "inject_ms": 1793968157130, "restored_ms": 1793968162856, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "latency", "episode": "latency-10", "strength_ms": 4000, "inject_ms": 1793968169507, "restored_ms": 1793968183285, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "config", "episode": "config-38", "inject_ms": 1793968190056, "restored_ms": 1793968195876, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "latency", "episode": "latency-44", "strength_ms": 4000, "inject_ms": 1793968202843, "restored_ms": 1793968217168, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "timeout", "episode": "timeout-35", "inject_ms": 1793968223773, "restored_ms": 1793968236266, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "resource", "episode": "resource-05", "inject_ms": 1793968242967, "restored_ms": 1793968287693, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "timeout", "episode": "timeout-48", "inject_ms": 1793968294292, "restored_ms": 1793968306897, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "latency", "episode": "latency-59", "strength_ms": 6000, "inject_ms": 1793968313605, "restored_ms": 1793968331427, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "latency", "episode": "latency-41", "strength_ms": 6000, "inject_ms": 1793968338718, "restored_ms": 1793968356302, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "config", "episode": "config-30", "inject_ms": 1793968363173, "restored_ms": 1793968368885, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "timeout", "episode": "timeout-27", "inject_ms": 1793968375414, "restored_ms": 1793968388031, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "config", "episode": "config-28", "inject_ms": 1793968394465, "restored_ms": 1793968400067, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "timeout", "episode": "timeout-11", "inject_ms": 1793968406490, "restored_ms": 1793968418931, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "resource", "episode": "resource-57", "inject_ms": 1793968425081, "restored_ms": 1793968469829, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "permission", "episode": "permission-59", "inject_ms": 1793968476292, "restored_ms": 1793968481863, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "resource", "episode": "resource-40", "inject_ms": 1793968488276, "restored_ms": 1793968532994, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "timeout", "episode": "timeout-18", "inject_ms": 1793968539541, "restored_ms": 1793968552166, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "latency", "episode": "latency-18", "strength_ms": 4000, "inject_ms": 1793968558539, "restored_ms": 1793968572333, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "permission", "episode": "permission-03", "inject_ms": 1793968578848, "restored_ms": 1793968584581, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "permission", "episode": "permission-58", "inject_ms": 1793968591059, "restored_ms": 1793968596638, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "latency", "episode": "latency-08", "strength_ms": 4000, "inject_ms": 1793968603375, "restored_ms": 1793968617020, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "resource", "episode": "resource-12", "inject_ms": 1793968623611, "restored_ms": 1793968668258, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "permission", "episode": "permission-43", "inject_ms": 1793968674636, "restored_ms": 1793968680174, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "timeout", "episode": "timeout-45", "inject_ms": 1793968686697, "restored_ms": 1793968699188, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "resource", "episode": "resource-26", "inject_ms": 1793968705699, "restored_ms": 1793968750480, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "latency", "episode": "latency-21", "strength_ms": 6000, "inject_ms": 1793968757767, "restored_ms": 1793968775308, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "latency", "episode": "latency-16", "strength_ms": 4000, "inject_ms": 1793968781916, "restored_ms": 1793968795699, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "timeout", "episode": "timeout-37", "inject_ms": 1793968802562, "restored_ms": 1793968815151, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "resource", "episode": "resource-00", "inject_ms": 1793968821837, "restored_ms": 1793968866707, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "config", "episode": "config-18", "inject_ms": 1793968873208, "restored_ms": 1793968879252, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "latency", "episode": "latency-20", "strength_ms": 4000, "inject_ms": 1793968886340, "restored_ms": 1793968900549, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "timeout", "episode": "timeout-00", "inject_ms": 1793968906751, "restored_ms": 1793968918957, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "permission", "episode": "permission-07", "inject_ms": 1793968925784, "restored_ms": 1793968931549, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "resource", "episode": "resource-07", "inject_ms": 1793968938041, "restored_ms": 1793968982701, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "timeout", "episode": "timeout-05", "inject_ms": 1793968989246, "restored_ms": 1793969001779, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "config", "episode": "config-34", "inject_ms": 1793969008108, "restored_ms": 1793969013880, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "latency", "episode": "latency-03", "strength_ms": 6000, "inject_ms": 1793969020444, "restored_ms": 1793969038304, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "timeout", "episode": "timeout-13", "inject_ms": 1793969044806, "restored_ms": 1793969057181, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "permission", "episode": "permission-41", "inject_ms": 1793969063430, "restored_ms": 1793969069374, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "latency", "episode": "latency-46", "strength_ms": 4000, "inject_ms": 1793969075948, "restored_ms": 1793969089473, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "permission", "episode": "permission-27", "inject_ms": 1793969096060, "restored_ms": 1793969101670, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "latency", "episode": "latency-56", "strength_ms": 4000, "inject_ms": 1793969108403, "restored_ms": 1793969122295, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "timeout", "episode": "timeout-49", "inject_ms": 1793969128958, "restored_ms": 1793969141565, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "latency", "episode": "latency-23", "strength_ms": 6000, "inject_ms": 1793969148208, "restored_ms": 1793969166031, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "permission", "episode": "permission-22", "inject_ms": 1793969172481, "restored_ms": 1793969178262, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "latency", "episode": "latency-17", "strength_ms": 6000, "inject_ms": 1793969184637, "restored_ms": 1793969202512, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "resource", "episode": "resource-08", "inject_ms": 1793969209178, "restored_ms": 1793969253963, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "timeout", "episode": "timeout-52", "inject_ms": 1793969260760, "restored_ms": 1793969272897, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "resource", "episode": "resource-18", "inject_ms": 1793969279544, "restored_ms": 1793969324162, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "timeout", "episode": "timeout-59", "inject_ms": 1793969330817, "restored_ms": 1793969343332, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "timeout", "episode": "timeout-20", "inject_ms": 1793969349946, "restored_ms": 1793969361966, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "config", "episode": "config-33", "inject_ms": 1793969370265, "restored_ms": 1793969376053, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "permission", "episode": "permission-44", "inject_ms": 1793969382950, "restored_ms": 1793969388855, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "timeout", "episode": "timeout-50", "inject_ms": 1793969395572, "restored_ms": 1793969407948, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "config", "episode": "config-46", "inject_ms": 1793969414447, "restored_ms": 1793969420107, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "config", "episode": "config-43", "inject_ms": 1793969427167, "restored_ms": 1793969432948, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "resource", "episode": "resource-24", "inject_ms": 1793969439877, "restored_ms": 1793969484652, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "latency", "episode": "latency-14", "strength_ms": 4000, "inject_ms": 1793969491361, "restored_ms": 1793969505419, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "config", "episode": "config-02", "inject_ms": 1793969511699, "restored_ms": 1793969517428, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "timeout", "episode": "timeout-02", "inject_ms": 1793969523981, "restored_ms": 1793969536352, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "permission", "episode": "permission-08", "inject_ms": 1793969543012, "restored_ms": 1793969548824, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "resource", "episode": "resource-38", "inject_ms": 1793969555614, "restored_ms": 1793969600650, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "resource", "episode": "resource-58", "inject_ms": 1793969608741, "restored_ms": 1793969653789, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "config", "episode": "config-40", "inject_ms": 1793969660468, "restored_ms": 1793969666233, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "latency", "episode": "latency-05", "strength_ms": 6000, "inject_ms": 1793969672754, "restored_ms": 1793969690326, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "latency", "episode": "latency-32", "strength_ms": 4000, "inject_ms": 1793969696832, "restored_ms": 1793969710577, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "timeout", "episode": "timeout-07", "inject_ms": 1793969717228, "restored_ms": 1793969729820, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "resource", "episode": "resource-45", "inject_ms": 1793969738028, "restored_ms": 1793969782956, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "timeout", "episode": "timeout-30", "inject_ms": 1793969789818, "restored_ms": 1793969802300, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "config", "episode": "config-12", "inject_ms": 1793969808832, "restored_ms": 1793969814626, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "config", "episode": "config-17", "inject_ms": 1793969820880, "restored_ms": 1793969826510, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "latency", "episode": "latency-49", "strength_ms": 6000, "inject_ms": 1793969833217, "restored_ms": 1793969850749, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "timeout", "episode": "timeout-51", "inject_ms": 1793969857313, "restored_ms": 1793969869805, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "resource", "episode": "resource-53", "inject_ms": 1793969876446, "restored_ms": 1793969921319, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "resource", "episode": "resource-32", "inject_ms": 1793969927915, "restored_ms": 1793969972599, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "timeout", "episode": "timeout-09", "inject_ms": 1793969979452, "restored_ms": 1793969991968, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "config", "episode": "config-48", "inject_ms": 1793969998774, "restored_ms": 1793970004680, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "resource", "episode": "resource-59", "inject_ms": 1793970011569, "restored_ms": 1793970056464, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "timeout", "episode": "timeout-08", "inject_ms": 1793970063326, "restored_ms": 1793970076189, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "resource", "episode": "resource-02", "inject_ms": 1793970082668, "restored_ms": 1793970127362, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "latency", "episode": "latency-48", "strength_ms": 4000, "inject_ms": 1793970134091, "restored_ms": 1793970148372, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "resource", "episode": "resource-04", "inject_ms": 1793970155290, "restored_ms": 1793970200166, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "resource", "episode": "resource-49", "inject_ms": 1793970207111, "restored_ms": 1793970252016, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "config", "episode": "config-25", "inject_ms": 1793970259182, "restored_ms": 1793970264948, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "resource", "episode": "resource-10", "inject_ms": 1793970271616, "restored_ms": 1793970308038, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "config", "episode": "config-01", "inject_ms": 1793970314785, "restored_ms": 1793970320575, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "timeout", "episode": "timeout-31", "inject_ms": 1793970327335, "restored_ms": 1793970339829, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "config", "episode": "config-35", "inject_ms": 1793970346624, "restored_ms": 1793970352375, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "permission", "episode": "permission-51", "inject_ms": 1793970358953, "restored_ms": 1793970364967, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "resource", "episode": "resource-33", "inject_ms": 1793970371775, "restored_ms": 1793970416584, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "latency", "episode": "latency-37", "strength_ms": 6000, "inject_ms": 1793970423170, "restored_ms": 1793970441290, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "timeout", "episode": "timeout-28", "inject_ms": 1793970448176, "restored_ms": 1793970460877, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "resource", "episode": "resource-55", "inject_ms": 1793970467484, "restored_ms": 1793970512068, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "config", "episode": "config-52", "inject_ms": 1793970518699, "restored_ms": 1793970524464, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "config", "episode": "config-58", "inject_ms": 1793970530922, "restored_ms": 1793970536604, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "timeout", "episode": "timeout-56", "inject_ms": 1793970543261, "restored_ms": 1793970555724, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "config", "episode": "config-59", "inject_ms": 1793970562243, "restored_ms": 1793970568148, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "latency", "episode": "latency-54", "strength_ms": 4000, "inject_ms": 1793970574830, "restored_ms": 1793970588624, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "resource", "episode": "resource-44", "inject_ms": 1793970595083, "restored_ms": 1793970639890, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "config", "episode": "config-53", "inject_ms": 1793970646521, "restored_ms": 1793970652406, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "latency", "episode": "latency-30", "strength_ms": 4000, "inject_ms": 1793970660157, "restored_ms": 1793970673965, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "latency", "episode": "latency-47", "strength_ms": 6000, "inject_ms": 1793970680888, "restored_ms": 1793970698720, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "resource", "episode": "resource-36", "inject_ms": 1793970706236, "restored_ms": 1793970751016, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "config", "episode": "config-50", "inject_ms": 1793970758142, "restored_ms": 1793970764076, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "resource", "episode": "resource-15", "inject_ms": 1793970770950, "restored_ms": 1793970815994, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "permission", "episode": "permission-04", "inject_ms": 1793970823029, "restored_ms": 1793970829162, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "permission", "episode": "permission-13", "inject_ms": 1793970835987, "restored_ms": 1793970842422, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "permission", "episode": "permission-11", "inject_ms": 1793970849457, "restored_ms": 1793970855080, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "permission", "episode": "permission-15", "inject_ms": 1793970861758, "restored_ms": 1793970868071, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "timeout", "episode": "timeout-42", "inject_ms": 1793970874708, "restored_ms": 1793970887278, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "permission", "episode": "permission-52", "inject_ms": 1793970894268, "restored_ms": 1793970900065, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "config", "episode": "config-57", "inject_ms": 1793970907388, "restored_ms": 1793970913277, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "timeout", "episode": "timeout-16", "inject_ms": 1793970920146, "restored_ms": 1793970932563, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "resource", "episode": "resource-48", "inject_ms": 1793970939076, "restored_ms": 1793970983856, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "permission", "episode": "permission-01", "inject_ms": 1793970990760, "restored_ms": 1793970996540, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "resource", "episode": "resource-41", "inject_ms": 1793971003508, "restored_ms": 1793971048544, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "resource", "episode": "resource-19", "inject_ms": 1793971055425, "restored_ms": 1793971100251, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "permission", "episode": "permission-14", "inject_ms": 1793971106967, "restored_ms": 1793971113029, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "latency", "episode": "latency-09", "strength_ms": 6000, "inject_ms": 1793971119714, "restored_ms": 1793971137550, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "permission", "episode": "permission-48", "inject_ms": 1793971144451, "restored_ms": 1793971150340, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "config", "episode": "config-47", "inject_ms": 1793971157294, "restored_ms": 1793971163148, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "resource", "episode": "resource-14", "inject_ms": 1793971169940, "restored_ms": 1793971214777, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "latency", "episode": "latency-01", "strength_ms": 6000, "inject_ms": 1793971221650, "restored_ms": 1793971239445, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "resource", "episode": "resource-50", "inject_ms": 1793971246301, "restored_ms": 1793971291289, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "latency", "episode": "latency-13", "strength_ms": 6000, "inject_ms": 1793971298331, "restored_ms": 1793971316365, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "config", "episode": "config-00", "inject_ms": 1793971323138, "restored_ms": 1793971329071, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "timeout", "episode": "timeout-10", "inject_ms": 1793971335830, "restored_ms": 1793971348481, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "permission", "episode": "permission-32", "inject_ms": 1793971355718, "restored_ms": 1793971361608, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "latency", "episode": "latency-51", "strength_ms": 6000, "inject_ms": 1793971368636, "restored_ms": 1793971386710, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}
+{"category": "config", "episode": "config-08", "inject_ms": 1793971393472, "restored_ms": 1793971399292, "burst": 2, "burst_faulty": 2, "gap_faulty": 0}

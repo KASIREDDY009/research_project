@@ -1,0 +1,61 @@
+application,detector,category,detected,fault_windows,recall
+orders,Isolation Forest (source-free),permission,681,815,0.8355828220858895
+orders,Isolation Forest (source-free),config,673,803,0.838107098381071
+orders,Isolation Forest (source-free),timeout,647,736,0.8790760869565217
+orders,Isolation Forest (source-free),resource,781,800,0.97625
+orders,Isolation Forest (source-free),latency,171,815,0.2098159509202454
+orders,DeepLog-style (source-free),permission,725,815,0.8895705521472392
+orders,DeepLog-style (source-free),config,717,803,0.8929016189290162
+orders,DeepLog-style (source-free),timeout,660,736,0.8967391304347826
+orders,DeepLog-style (source-free),resource,780,800,0.975
+orders,DeepLog-style (source-free),latency,618,815,0.758282208588957
+orders,BGL-trained baseline,permission,678,815,0.8319018404907975
+orders,BGL-trained baseline,config,667,803,0.8306351183063512
+orders,BGL-trained baseline,timeout,646,736,0.8777173913043478
+orders,BGL-trained baseline,resource,780,800,0.975
+orders,BGL-trained baseline,latency,0,815,0.0
+orders,OpenStack-trained baseline,permission,678,815,0.8319018404907975
+orders,OpenStack-trained baseline,config,667,803,0.8306351183063512
+orders,OpenStack-trained baseline,timeout,0,736,0.0
+orders,OpenStack-trained baseline,resource,7,800,0.00875
+orders,OpenStack-trained baseline,latency,0,815,0.0
+orders,Similar-application baseline,permission,678,815,0.8319018404907975
+orders,Similar-application baseline,config,664,803,0.8268991282689913
+orders,Similar-application baseline,timeout,649,736,0.8817934782608695
+orders,Similar-application baseline,resource,777,800,0.97125
+orders,Similar-application baseline,latency,147,815,0.18036809815950922
+orders,Threshold alarms,permission,402,815,0.49325153374233127
+orders,Threshold alarms,config,413,803,0.5143212951432129
+orders,Threshold alarms,timeout,0,736,0.0
+orders,Threshold alarms,resource,4,800,0.005
+orders,Threshold alarms,latency,0,815,0.0
+bookings,Isolation Forest (source-free),permission,659,807,0.8166047087980174
+bookings,Isolation Forest (source-free),config,669,798,0.8383458646616542
+bookings,Isolation Forest (source-free),timeout,652,754,0.8647214854111406
+bookings,Isolation Forest (source-free),resource,753,781,0.9641485275288092
+bookings,Isolation Forest (source-free),latency,122,825,0.1478787878787879
+bookings,DeepLog-style (source-free),permission,687,807,0.8513011152416357
+bookings,DeepLog-style (source-free),config,692,798,0.8671679197994987
+bookings,DeepLog-style (source-free),timeout,653,754,0.8660477453580901
+bookings,DeepLog-style (source-free),resource,751,781,0.9615877080665813
+bookings,DeepLog-style (source-free),latency,291,825,0.3527272727272727
+bookings,BGL-trained baseline,permission,651,807,0.8066914498141264
+bookings,BGL-trained baseline,config,662,798,0.8295739348370927
+bookings,BGL-trained baseline,timeout,646,754,0.8567639257294429
+bookings,BGL-trained baseline,resource,751,781,0.9615877080665813
+bookings,BGL-trained baseline,latency,1,825,0.0012121212121212121
+bookings,OpenStack-trained baseline,permission,651,807,0.8066914498141264
+bookings,OpenStack-trained baseline,config,662,798,0.8295739348370927
+bookings,OpenStack-trained baseline,timeout,0,754,0.0
+bookings,OpenStack-trained baseline,resource,12,781,0.015364916773367477
+bookings,OpenStack-trained baseline,latency,0,825,0.0
+bookings,Similar-application baseline,permission,648,807,0.8029739776951673
+bookings,Similar-application baseline,config,657,798,0.8233082706766918
+bookings,Similar-application baseline,timeout,646,754,0.8567639257294429
+bookings,Similar-application baseline,resource,749,781,0.9590268886043534
+bookings,Similar-application baseline,latency,61,825,0.07393939393939394
+bookings,Threshold alarms,permission,425,807,0.5266418835192069
+bookings,Threshold alarms,config,416,798,0.5213032581453634
+bookings,Threshold alarms,timeout,0,754,0.0
+bookings,Threshold alarms,resource,8,781,0.010243277848911651
+bookings,Threshold alarms,latency,0,825,0.0

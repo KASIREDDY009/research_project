@@ -1,0 +1,116 @@
+{
+  "results": {
+    "BGL->HDFS": {
+      "elfa_log_reference": {
+        "f1": 71.83,
+        "mcc": 0.674
+      },
+      "n_target_events": 5000000,
+      "n_target_anomalous_events": 145864,
+      "baseline": {
+        "precision": 0.025089605734767026,
+        "recall": 0.005003573981415297,
+        "f1": 0.00834326579261025,
+        "mcc": -0.014268463528392486,
+        "tp": 35,
+        "fp": 1360,
+        "fn": 6960,
+        "tn": 116645,
+        "auc": 0.5424595170622972,
+        "false_alarm_rate": 0.011524935384093894,
+        "meta": {
+          "algorithm": "random_forest",
+          "n_source_windows": 237398,
+          "decision_threshold": 0.45523067230136516,
+          "threshold_can_alarm": true,
+          "calib_fpr": 0.01,
+          "n_calib_windows": 60536,
+          "n_windows": 125000
+        },
+        "per_block": {
+          "precision": 0.4838709677419355,
+          "recall": 0.007494379215588309,
+          "f1": 0.014760147601476014,
+          "mcc": 0.0574483711543047,
+          "tp": 30,
+          "fp": 32,
+          "fn": 3973,
+          "tn": 133339,
+          "auc": 0.5259886128134328,
+          "false_alarm_rate": 0.00023993221914809067,
+          "n_blocks": 137374
+        }
+      }
+    },
+    "BGL->OpenStack": {
+      "elfa_log_reference": {
+        "f1": 58.43,
+        "mcc": 0.054
+      },
+      "n_target_events": 70746,
+      "n_target_anomalous_events": 18434,
+      "baseline": {
+        "precision": 1.0,
+        "recall": 0.0010845986984815619,
+        "f1": 0.0021668472372697724,
+        "mcc": 0.022787749999440766,
+        "tp": 1,
+        "fp": 0,
+        "fn": 921,
+        "tn": 846,
+        "auc": 0.49992692420116613,
+        "false_alarm_rate": 0.0,
+        "meta": {
+          "algorithm": "random_forest",
+          "n_source_windows": 237398,
+          "decision_threshold": 0.45523067230136516,
+          "threshold_can_alarm": true,
+          "calib_fpr": 0.01,
+          "n_calib_windows": 884,
+          "n_windows": 1768
+        }
+      }
+    }
+  },
+  "corpora": {
+    "BGL": {
+      "events": 4747963,
+      "anomalous_events": 348460,
+      "elfa_log": {
+        "messages": 4747963,
+        "anomalies": 348460
+      }
+    },
+    "HDFS": {
+      "events": 5000000,
+      "anomalous_events": 145864,
+      "elfa_log": {
+        "messages": 5000000,
+        "anomalies": 284818
+      }
+    },
+    "OpenStack": {
+      "events": 70746,
+      "anomalous_events": 18434,
+      "elfa_log": {
+        "messages": 70724,
+        "anomalies": 18435
+      }
+    }
+  },
+  "settings": {
+    "bgl_lines": null,
+    "hdfs_lines": 5000000,
+    "window": 20,
+    "step": 20,
+    "seed": 42,
+    "inputs": {
+      "BGL.log": "666130b15ef44eb32fd02bd053e6c6e007c37696b5e7e8b9d8e45b729876a5d2",
+      "HDFS.log": "0783096174d7832c618337f9609e06e04abd86ddd7089b3c12b407e63bfebc52",
+      "anomaly_label.csv": "1c711ed6c8848fc3243fb4d092f172f31d128c8a6ec7f26ebba72ab931885ed8",
+      "openstack_normal1.log": "4e4d47347bdae198056bb3b0a8a755e1cb0100d6c6a30bbd4058684234769199",
+      "openstack_abnormal.log": "7ab718fbb2f2b804893955cecf37ad9533cfa0efaf5b03009474d5bb019b6af4",
+      "anomaly_labels.txt": "0882aa484f285e3dda476ff39ed739603c446f27b76bb113e284cda6ebb09d0b"
+    }
+  }
+}

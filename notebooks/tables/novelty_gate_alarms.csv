@@ -1,0 +1,3 @@
+application,alarms,gate_only,forest_only,both,share_gate_only,feature_space_gap,feature_space_ci_low,feature_space_ci_high
+orders,3074,1200,294,1580,0.3903708523096942,0.0,0.0,0.0
+bookings,2937,1186,217,1534,0.40381341504937013,0.0,0.0,0.0

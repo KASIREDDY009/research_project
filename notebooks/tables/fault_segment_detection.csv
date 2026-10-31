@@ -1,0 +1,5 @@
+application,family,n_segments,only_first_right,only_second_right,p
+orders,Isolation Forest,2701,0,170,1.3363823550460978e-51
+orders,DeepLog-style,2701,0,540,5.556896873712694e-163
+bookings,Isolation Forest,2697,0,120,1.504632769052528e-36
+bookings,DeepLog-style,2697,0,247,8.843436600416711e-75

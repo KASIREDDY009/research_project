@@ -1,0 +1,18 @@
+# sha256 pins of the labelled sources and of the LogHub files they are built from.
+baseline_source:
+  # The BGL-trained baseline: the LogHub BGL_2k sample.
+  paths:
+    source_events_jsonl: data/public_corpus/BGL/source_events.jsonl
+  sha256:
+    BGL_2k.log: "2a819ea540909db682005c9cf948387a40729b5c2e9f19d430e29ce704825496"
+    source_events.jsonl: "bac894b7ec7f0d4c7cd661ead06f507acbbc847472c7e68cfd998fa85e1fe160"
+openstack_source:
+  # The OpenStack-trained baseline: the labelled LogHub OpenStack set (openstack_normal1.log and
+  # openstack_abnormal.log, labelled with anomaly_labels.txt).
+  paths:
+    source_events_jsonl: data/public_corpus/OpenStack/source_events.jsonl
+  sha256:
+    openstack_normal1.log: "4e4d47347bdae198056bb3b0a8a755e1cb0100d6c6a30bbd4058684234769199"
+    openstack_abnormal.log: "7ab718fbb2f2b804893955cecf37ad9533cfa0efaf5b03009474d5bb019b6af4"
+    anomaly_labels.txt: "0882aa484f285e3dda476ff39ed739603c446f27b76bb113e284cda6ebb09d0b"
+    source_events.jsonl: "6a4d7bcc013f286885a1c50a84fc715ea4165a2d602315a75a65d30028af0f58"

@@ -1,0 +1,13 @@
+application,detector,false_alarms_heldout,normal_windows,rate_heldout,false_alarms_elasticity,elasticity_windows,rate_elasticity
+orders,Isolation Forest (source-free),121,9469,0.012778540500580842,61,816,0.07475490196078431
+orders,DeepLog-style (source-free),597,9469,0.06304784032104763,144,816,0.17647058823529413
+orders,BGL-trained baseline,3,9469,0.00031682331819621925,0,816,0.0
+orders,OpenStack-trained baseline,0,9469,0.0,0,816,0.0
+orders,Similar-application baseline,3,9469,0.00031682331819621925,1,816,0.0012254901960784314
+orders,Threshold alarms,0,9469,0.0,0,816,0.0
+bookings,Isolation Forest (source-free),82,9477,0.00865252717104569,60,816,0.07352941176470588
+bookings,DeepLog-style (source-free),386,9477,0.04073018887833703,118,816,0.14460784313725492
+bookings,BGL-trained baseline,2,9477,0.00021103724807428512,0,816,0.0
+bookings,OpenStack-trained baseline,0,9477,0.0,0,816,0.0
+bookings,Similar-application baseline,1,9477,0.00010551862403714256,0,816,0.0
+bookings,Threshold alarms,0,9477,0.0,0,816,0.0

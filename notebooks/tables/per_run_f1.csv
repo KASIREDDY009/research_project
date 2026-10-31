@@ -1,0 +1,109 @@
+application,run,detector,f1,mcc
+orders,run1,Isolation Forest (source-free),0.8289637952559301,0.7756838864499116
+orders,run1,DeepLog-style (source-free),0.8674157303370786,0.8110149433611356
+orders,run1,BGL-trained baseline,0.8180610889774237,0.7815310289075618
+orders,run1,OpenStack-trained baseline,0.5025295109612141,0.5116803416808914
+orders,run1,Similar-application baseline,0.8819095477386935,0.8502189066707486
+orders,run1,Threshold alarms,0.34328358208955223,0.39379202097928806
+orders,run2,Isolation Forest (source-free),0.8276762402088773,0.7911376367790668
+orders,run2,DeepLog-style (source-free),0.868995633187773,0.8116890302558534
+orders,run2,BGL-trained baseline,0.8226018396846255,0.7867650416837527
+orders,run2,OpenStack-trained baseline,0.5165562913907285,0.5219112367883738
+orders,run2,Similar-application baseline,0.8585987261146497,0.8247734892063014
+orders,run2,Threshold alarms,0.3157894736842105,0.3730931704017438
+orders,run3,Isolation Forest (source-free),0.8189987163029525,0.769510250052398
+orders,run3,DeepLog-style (source-free),0.862788144895719,0.8034686810748188
+orders,run3,BGL-trained baseline,0.8197596795727636,0.7846283905327073
+orders,run3,OpenStack-trained baseline,0.4940374787052811,0.5058481520586751
+orders,run3,Similar-application baseline,0.8197596795727636,0.7846283905327073
+orders,run3,Threshold alarms,0.35687732342007433,0.40432426914505926
+orders,run4,Isolation Forest (source-free),0.8297604035308953,0.7816304937390691
+orders,run4,DeepLog-style (source-free),0.8848346636259977,0.8372344387847215
+orders,run4,BGL-trained baseline,0.8184210526315789,0.7812760168984465
+orders,run4,OpenStack-trained baseline,0.5190082644628099,0.5233950415517438
+orders,run4,Similar-application baseline,0.8226018396846255,0.7864638950305813
+orders,run4,Threshold alarms,0.3126177024482109,0.3704135370711058
+orders,run5,Isolation Forest (source-free),0.8206521739130435,0.7858799594554136
+orders,run5,DeepLog-style (source-free),0.8613303269447576,0.8032886940020795
+orders,run5,BGL-trained baseline,0.8201634877384196,0.7862791685280262
+orders,run5,OpenStack-trained baseline,0.5017301038062284,0.5132060530515197
+orders,run5,Similar-application baseline,0.8201634877384196,0.7862791685280262
+orders,run5,Threshold alarms,0.3660377358490566,0.41247858691204936
+orders,run6,Isolation Forest (source-free),0.8786407766990292,0.8386864354215874
+orders,run6,DeepLog-style (source-free),0.8612652608213096,0.8014827401756548
+orders,run6,BGL-trained baseline,0.8143236074270557,0.7783731511712844
+orders,run6,OpenStack-trained baseline,0.5124792013311148,0.5188870729652117
+orders,run6,Similar-application baseline,0.8121693121693122,0.7743463004302193
+orders,run6,Threshold alarms,0.332089552238806,0.3852380915658119
+orders,run7,Isolation Forest (source-free),0.8789013732833958,0.8403360487068496
+orders,run7,DeepLog-style (source-free),0.8615725359911407,0.8028169528279187
+orders,run7,BGL-trained baseline,0.8364611260053619,0.8028104618213343
+orders,run7,OpenStack-trained baseline,0.5085910652920962,0.5180664642997432
+orders,run7,Similar-application baseline,0.8828828828828829,0.8530387206971642
+orders,run7,Threshold alarms,0.34980988593155893,0.4002005538408451
+orders,run8,Isolation Forest (source-free),0.799468791500664,0.751969411439619
+orders,run8,DeepLog-style (source-free),0.8767123287671232,0.825430277485072
+orders,run8,BGL-trained baseline,0.8146143437077131,0.7798065835938275
+orders,run8,OpenStack-trained baseline,0.5102040816326531,0.5185711729492808
+orders,run8,Similar-application baseline,0.8473684210526315,0.8137627583770958
+orders,run8,Threshold alarms,0.3409090909090909,0.3929880254678229
+orders,run9,Isolation Forest (source-free),0.8582278481012658,0.8156889872591034
+orders,run9,DeepLog-style (source-free),0.8662983425414365,0.8095787451303293
+orders,run9,BGL-trained baseline,0.8326639892904953,0.7980015143662597
+orders,run9,OpenStack-trained baseline,0.5077186963979416,0.517382433671184
+orders,run9,Similar-application baseline,0.8686605981794538,0.8372354143967484
+orders,run9,Threshold alarms,0.3615819209039548,0.40887012816768425
+bookings,run1,Isolation Forest (source-free),0.8254777070063695,0.7792235631387857
+bookings,run1,DeepLog-style (source-free),0.8357541899441341,0.7655211752815292
+bookings,run1,BGL-trained baseline,0.7891891891891892,0.7531232015355979
+bookings,run1,OpenStack-trained baseline,0.4735945485519591,0.48940070179371775
+bookings,run1,Similar-application baseline,0.7891891891891892,0.7531232015355979
+bookings,run1,Threshold alarms,0.3619744058500914,0.40705896944827896
+bookings,run2,Isolation Forest (source-free),0.8213333333333334,0.7839860277570366
+bookings,run2,DeepLog-style (source-free),0.7943078913324709,0.7366113677223091
+bookings,run2,BGL-trained baseline,0.8198924731182796,0.7851505912393614
+bookings,run2,OpenStack-trained baseline,0.5068027210884354,0.515971794597286
+bookings,run2,Similar-application baseline,0.8198924731182796,0.7851505912393614
+bookings,run2,Threshold alarms,0.34962406015037595,0.3994076477149405
+bookings,run3,Isolation Forest (source-free),0.8180610889774237,0.7801342764969114
+bookings,run3,DeepLog-style (source-free),0.818297331639136,0.7652788110361488
+bookings,run3,BGL-trained baseline,0.8181818181818182,0.7829347639895294
+bookings,run3,OpenStack-trained baseline,0.5092748735244519,0.5172523102494004
+bookings,run3,Similar-application baseline,0.847457627118644,0.813411826417196
+bookings,run3,Threshold alarms,0.3352165725047081,0.3882412465855091
+bookings,run4,Isolation Forest (source-free),0.8148148148148148,0.7763588346182403
+bookings,run4,DeepLog-style (source-free),0.8209718670076727,0.7725407378260288
+bookings,run4,BGL-trained baseline,0.8090787716955942,0.772336405363171
+bookings,run4,OpenStack-trained baseline,0.5067114093959731,0.5147695526730536
+bookings,run4,Similar-application baseline,0.803763440860215,0.7679519837686546
+bookings,run4,Threshold alarms,0.34572490706319703,0.39552878233638167
+bookings,run5,Isolation Forest (source-free),0.8223086900129701,0.7785171527542877
+bookings,run5,DeepLog-style (source-free),0.7786458333333334,0.7202829430182303
+bookings,run5,BGL-trained baseline,0.8021534320323015,0.7654762703442267
+bookings,run5,OpenStack-trained baseline,0.49746192893401014,0.5079099040301102
+bookings,run5,Similar-application baseline,0.8005390835579514,0.7638627923440965
+bookings,run5,Threshold alarms,0.3525046382189239,0.40063856887906785
+bookings,run6,Isolation Forest (source-free),0.8168642951251647,0.7710715360165677
+bookings,run6,DeepLog-style (source-free),0.872852233676976,0.8204300837010411
+bookings,run6,BGL-trained baseline,0.8114754098360656,0.7772453272769276
+bookings,run6,OpenStack-trained baseline,0.49740932642487046,0.5096380856355105
+bookings,run6,Similar-application baseline,0.8211382113821138,0.7870303689606145
+bookings,run6,Threshold alarms,0.36466165413533835,0.41118814556465494
+bookings,run7,Isolation Forest (source-free),0.852752880921895,0.8121168407430975
+bookings,run7,DeepLog-style (source-free),0.864804469273743,0.8074360720929075
+bookings,run7,BGL-trained baseline,0.8252688172043011,0.7908936412345144
+bookings,run7,OpenStack-trained baseline,0.5008576329331046,0.5117806607181563
+bookings,run7,Similar-application baseline,0.856020942408377,0.8232198649126418
+bookings,run7,Threshold alarms,0.3540489642184557,0.4029455001209682
+bookings,run8,Isolation Forest (source-free),0.8337662337662337,0.7910173916299817
+bookings,run8,DeepLog-style (source-free),0.797886393659181,0.7479915137179329
+bookings,run8,BGL-trained baseline,0.8130081300813008,0.7782687278048525
+bookings,run8,OpenStack-trained baseline,0.5051194539249146,0.5148241250668141
+bookings,run8,Similar-application baseline,0.8130081300813008,0.7782687278048525
+bookings,run8,Threshold alarms,0.36261682242990656,0.4091026875520766
+bookings,run9,Isolation Forest (source-free),0.8391248391248392,0.7950905283645008
+bookings,run9,DeepLog-style (source-free),0.8513966480446927,0.7884040123841455
+bookings,run9,BGL-trained baseline,0.8189189189189189,0.7844861885381186
+bookings,run9,OpenStack-trained baseline,0.5110732538330494,0.5196208903545155
+bookings,run9,Similar-application baseline,0.8346666666666667,0.800692104217672
+bookings,run9,Threshold alarms,0.34782608695652173,0.3984439102455128

@@ -1,0 +1,5 @@
+sflad-eval-run2-run3-bookings-1108-121942: every job slot is busy; retrying in 5 min
+sflad-eval-run2-run3-bookings-1108-121942: started on ml.t3.xlarge with commit 84a7429
+sflad-eval-run2-run3-bookings-1108-121942: InProgress after 1 min
+sflad-eval-run2-run3-bookings-1108-121942: Completed after 5 min
+sflad-eval-run2-run3-bookings-1108-121942: outputs in results/runs/run3/bookings/processed

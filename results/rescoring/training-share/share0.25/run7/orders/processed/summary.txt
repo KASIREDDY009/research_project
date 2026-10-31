@@ -1,0 +1,37 @@
+# Experiment summary
+
+- Seed 42; windows of 20 lines, step 20.
+- The fault-free window is split in time: the later 0.5 of its lines set every alarm threshold at a 0.01 false-alarm target; the earlier lines train.
+
+An undefined value prints as nan.
+
+| Detector | Precision | Recall | F1 | MCC | False-alarm rate | Segments detected | Median delay (s) |
+|---|---:|---:|---:|---:|---:|---:|---:|
+| Source-free (Isolation Forest with novelty gate) | 0.9451 | 0.7926 | 0.8622 | 0.8182 | 0.0189 | 269 of 300 | 0.0 |
+| Source-free (DeepLog-style) | 0.8767 | 0.9009 | 0.8886 | 0.8422 | 0.0520 | 300 of 300 | 0.0 |
+| BGL-trained baseline | 1.0000 | 0.7189 | 0.8365 | 0.8028 | 0.0000 | 240 of 300 | 0.0 |
+| OpenStack-trained baseline | 1.0000 | 0.3410 | 0.5086 | 0.5181 | 0.0000 | 120 of 300 | 0.0 |
+| Similar-application baseline | 1.0000 | 0.7903 | 0.8829 | 0.8530 | 0.0000 | 271 of 300 | 0.0 |
+| Threshold alarms | 1.0000 | 0.2120 | 0.3498 | 0.4002 | 0.0000 | 92 of 300 | 0.0 |
+| Ablation: Isolation Forest alone | 0.9224 | 0.5207 | 0.6657 | 0.6163 | 0.0180 | 222 of 300 | 0.0 |
+| Ablation: novelty gate alone | 0.9968 | 0.7189 | 0.8353 | 0.8008 | 0.0009 | 240 of 300 | 0.0 |
+| Ablation: source-free detector on the BGL baseline's features | 1.0000 | 0.7189 | 0.8365 | 0.8028 | 0.0000 | 240 of 300 | 0.0 |
+
+## Forfeiture (baseline minus source-free)
+
+- F1, BGL-trained baseline minus Source-free (Isolation Forest with novelty gate): -0.0257
+- F1, BGL-trained baseline minus Source-free (DeepLog-style): -0.0522
+- MCC, BGL-trained baseline minus Source-free (Isolation Forest with novelty gate): -0.0154
+- MCC, BGL-trained baseline minus Source-free (DeepLog-style): -0.0394
+- F1, OpenStack-trained baseline minus Source-free (Isolation Forest with novelty gate): -0.3536
+- F1, OpenStack-trained baseline minus Source-free (DeepLog-style): -0.3800
+- MCC, OpenStack-trained baseline minus Source-free (Isolation Forest with novelty gate): -0.3001
+- MCC, OpenStack-trained baseline minus Source-free (DeepLog-style): -0.3241
+- F1, Similar-application baseline minus Source-free (Isolation Forest with novelty gate): 0.0207
+- F1, Similar-application baseline minus Source-free (DeepLog-style): -0.0058
+- MCC, Similar-application baseline minus Source-free (Isolation Forest with novelty gate): 0.0349
+- MCC, Similar-application baseline minus Source-free (DeepLog-style): 0.0109
+- F1, BGL-trained baseline minus Ablation: source-free detector on the BGL baseline's features: 0.0000
+- MCC, BGL-trained baseline minus Ablation: source-free detector on the BGL baseline's features: 0.0000
+
+results.json also holds the detector settings and the configuration.

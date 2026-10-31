@@ -1,0 +1,26 @@
+region: eu-west-1
+# The stack's names and deployed settings come from `terraform output -json apps` in this folder.
+terraform_dir: infra/terraform
+workload:
+  train_cycles: 600        # create-then-read cycles in the clean training window (first half trains, second half calibrates)
+  train_sham_every_cycles: 10   # a configuration update every this many training cycles, as after each fault
+  gap_cycles: 8            # clean cycles after each fault episode
+  fault_burst: 2           # create calls while a fault is active
+  pause_seconds: 0.05
+faults:
+  categories: [permission, config, timeout, resource, latency]
+  injections_per_category: 60
+  fault_timeout_seconds: 3        # function timeout while DynamoDB is unreachable
+  unreachable_endpoint: https://10.255.255.1
+  starved_memory_mb: 128          # below both applications' working sets
+  injected_delays_ms: [4000, 6000] # latency fault: wait before handling each request
+labels:
+  slow_margin_ms: 1000    # a call is slow when it takes longer than the slowest training-window call plus this
+control:
+  bursts: 8
+  burst_concurrency: 4    # both applications' bursts together reach 8 concurrent executions
+  cycles_between_bursts: 20
+  idle_seconds: 10
+export:
+  attempts: 10
+  wait_seconds: 30

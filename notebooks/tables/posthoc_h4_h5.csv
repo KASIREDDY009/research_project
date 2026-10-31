@@ -1,0 +1,71 @@
+application,detector,test,pair,difference,p,holm_p,cramers_v_overall,min_expected_overall
+orders,Isolation Forest,H4 recall,permission vs config,-0.0025242762951814823,0.9441075216412421,0.9441075216412421,0.6332104003152752,188.40413202317964
+orders,Isolation Forest,H4 recall,permission vs timeout,-0.04349326487063221,0.01801475973493141,0.054044279204794224,0.6332104003152752,188.40413202317964
+orders,Isolation Forest,H4 recall,permission vs resource,-0.14066717791411043,1.1082884801321802e-21,6.6497308807930815e-21,0.6332104003152752,188.40413202317964
+orders,Isolation Forest,H4 recall,permission vs latency,0.6257668711656441,1.4315530802954522e-140,1.006657697905878e-139,0.6332104003152752,188.40413202317964
+orders,Isolation Forest,H4 recall,config vs timeout,-0.04096898857545073,0.02607916017421129,0.054044279204794224,0.6332104003152752,188.40413202317964
+orders,Isolation Forest,H4 recall,config vs resource,-0.13814290161892895,3.797612235641705e-21,1.8988061178208524e-20,0.6332104003152752,188.40413202317964
+orders,Isolation Forest,H4 recall,config vs latency,0.6282911474608256,1.2583221223823475e-140,1.006657697905878e-139,0.6332104003152752,188.40413202317964
+orders,Isolation Forest,H4 recall,timeout vs resource,-0.09717391304347822,2.1122698411871154e-13,8.449079364748462e-13,0.6332104003152752,188.40413202317964
+orders,Isolation Forest,H4 recall,timeout vs latency,0.6692601360362763,1.4062143379781388e-152,1.265592904180325e-151,0.6332104003152752,188.40413202317964
+orders,Isolation Forest,H4 recall,resource vs latency,0.7664340490797545,1.9626051212546504e-214,1.9626051212546506e-213,0.6332104003152752,188.40413202317964
+orders,DeepLog-style,H4 recall,permission vs config,-0.00333106678177697,0.8923615374207555,1.0,0.21822504527977735,86.9700176366843
+orders,DeepLog-style,H4 recall,permission vs timeout,-0.007168578287543359,0.7085739482715012,1.0,0.21822504527977735,86.9700176366843
+orders,DeepLog-style,H4 recall,permission vs resource,-0.08542944785276074,1.8876810064774624e-11,1.1326086038864774e-10,0.21822504527977735,86.9700176366843
+orders,DeepLog-style,H4 recall,permission vs latency,0.13128834355828223,5.45521075892951e-12,3.8186475312506574e-11,0.21822504527977735,86.9700176366843
+orders,DeepLog-style,H4 recall,config vs timeout,-0.003837511505766389,0.871382239200702,1.0,0.21822504527977735,86.9700176366843
+orders,DeepLog-style,H4 recall,config vs resource,-0.08209838107098377,7.360209264147013e-11,3.680104632073506e-10,0.21822504527977735,86.9700176366843
+orders,DeepLog-style,H4 recall,config vs latency,0.1346194103400592,1.6478586382710026e-12,1.3182869106168021e-11,0.21822504527977735,86.9700176366843
+orders,DeepLog-style,H4 recall,timeout vs resource,-0.07826086956521738,4.829349771090822e-10,1.9317399084363288e-09,0.21822504527977735,86.9700176366843
+orders,DeepLog-style,H4 recall,timeout vs latency,0.1384569218458256,1.4106661132522102e-12,1.2695995019269892e-11,0.21822504527977735,86.9700176366843
+orders,DeepLog-style,H4 recall,resource vs latency,0.21671779141104297,6.3042934527031695e-37,6.30429345270317e-36,0.21822504527977735,86.9700176366843
+bookings,Isolation Forest,H4 recall,permission vs config,-0.021741155863636785,0.27730736815441437,0.33043717273037826,0.6627802853812749,211.08196721311475
+bookings,Isolation Forest,H4 recall,permission vs timeout,-0.04811677661312319,0.011694160830882977,0.035082482492648934,0.6627802853812749,211.08196721311475
+bookings,Isolation Forest,H4 recall,permission vs resource,-0.1475438187307918,1.640324062091446e-20,9.841944372548677e-20,0.6627802853812749,211.08196721311475
+bookings,Isolation Forest,H4 recall,permission vs latency,0.6687259209192296,1.9957484056963848e-160,1.3970238839874694e-159,0.6627802853812749,211.08196721311475
+bookings,Isolation Forest,H4 recall,config vs timeout,-0.026375620749486406,0.16521858636518913,0.33043717273037826,0.6627802853812749,211.08196721311475
+bookings,Isolation Forest,H4 recall,config vs resource,-0.12580266286715502,1.359539730408294e-16,6.79769865204147e-16,0.6627802853812749,211.08196721311475
+bookings,Isolation Forest,H4 recall,config vs latency,0.6904670767828662,9.493796846521647e-170,7.595037477217318e-169,0.6627802853812749,211.08196721311475
+bookings,Isolation Forest,H4 recall,timeout vs resource,-0.09942704211766862,5.096343248286724e-12,2.0385372993146897e-11,0.6627802853812749,211.08196721311475
+bookings,Isolation Forest,H4 recall,timeout vs latency,0.7168426975323527,1.4705986023738394e-177,1.3235387421364555e-176,0.6627802853812749,211.08196721311475
+bookings,Isolation Forest,H4 recall,resource vs latency,0.8162697396500214,1.0703926953107764e-235,1.0703926953107763e-234,0.6627802853812749,211.08196721311475
+bookings,DeepLog-style,H4 recall,permission vs config,-0.015866804557863046,0.39979419467828525,1.0,0.5272444578243132,169.4360655737705
+bookings,DeepLog-style,H4 recall,permission vs timeout,-0.014746630116454496,0.4457542298625752,1.0,0.5272444578243132,169.4360655737705
+bookings,DeepLog-style,H4 recall,permission vs resource,-0.11028659282494568,1.1134219016204226e-13,6.680531409722536e-13,0.5272444578243132,169.4360655737705
+bookings,DeepLog-style,H4 recall,permission vs latency,0.49857384251436293,2.211753407056851e-93,1.5482273849397957e-92,0.5272444578243132,169.4360655737705
+bookings,DeepLog-style,H4 recall,config vs timeout,0.0011201744414085502,1.0,1.0,0.5272444578243132,169.4360655737705
+bookings,DeepLog-style,H4 recall,config vs resource,-0.09441978826708264,4.2103069169248614e-11,1.9686779800896648e-10,0.5272444578243132,169.4360655737705
+bookings,DeepLog-style,H4 recall,config vs latency,0.514440647072226,2.748056237686504e-99,2.4732506139178535e-98,0.5272444578243132,169.4360655737705
+bookings,DeepLog-style,H4 recall,timeout vs resource,-0.09553996270849119,3.93735596017933e-11,1.9686779800896648e-10,0.5272444578243132,169.4360655737705
+bookings,DeepLog-style,H4 recall,timeout vs latency,0.5133204726308174,1.9620312570748548e-95,1.5696250056598839e-94,0.5272444578243132,169.4360655737705
+bookings,DeepLog-style,H4 recall,resource vs latency,0.6088604353393086,2.158216566486007e-143,2.158216566486007e-142,0.5272444578243132,169.4360655737705
+orders,all arms,H5 elasticity false alarms,Isolation Forest (source-free) vs DeepLog-style (source-free),-0.10171568627450982,5.198609903817759e-18,2.0794439615271036e-17,N/A,N/A
+orders,all arms,H5 elasticity false alarms,Isolation Forest (source-free) vs BGL-trained baseline,0.07475490196078431,8.673617379884035e-19,6.938893903907228e-18,N/A,N/A
+orders,all arms,H5 elasticity false alarms,Isolation Forest (source-free) vs OpenStack-trained baseline,0.07475490196078431,8.673617379884035e-19,6.938893903907228e-18,N/A,N/A
+orders,all arms,H5 elasticity false alarms,Isolation Forest (source-free) vs Similar-application baseline,0.07352941176470588,1.734723475976807e-18,8.673617379884035e-18,N/A,N/A
+orders,all arms,H5 elasticity false alarms,Isolation Forest (source-free) vs Threshold alarms,0.07475490196078431,8.673617379884035e-19,6.938893903907228e-18,N/A,N/A
+orders,all arms,H5 elasticity false alarms,DeepLog-style (source-free) vs BGL-trained baseline,0.17647058823529413,8.96831017167883e-44,1.0761972206014595e-42,N/A,N/A
+orders,all arms,H5 elasticity false alarms,DeepLog-style (source-free) vs OpenStack-trained baseline,0.17647058823529413,8.96831017167883e-44,1.0761972206014595e-42,N/A,N/A
+orders,all arms,H5 elasticity false alarms,DeepLog-style (source-free) vs Similar-application baseline,0.1752450980392157,1.793662034335766e-43,1.6142958309021893e-42,N/A,N/A
+orders,all arms,H5 elasticity false alarms,DeepLog-style (source-free) vs Threshold alarms,0.17647058823529413,8.96831017167883e-44,1.0761972206014595e-42,N/A,N/A
+orders,all arms,H5 elasticity false alarms,BGL-trained baseline vs OpenStack-trained baseline,0.0,N/A,N/A,N/A,N/A
+orders,all arms,H5 elasticity false alarms,BGL-trained baseline vs Similar-application baseline,-0.0012254901960784314,1.0,1.0,N/A,N/A
+orders,all arms,H5 elasticity false alarms,BGL-trained baseline vs Threshold alarms,0.0,N/A,N/A,N/A,N/A
+orders,all arms,H5 elasticity false alarms,OpenStack-trained baseline vs Similar-application baseline,-0.0012254901960784314,1.0,1.0,N/A,N/A
+orders,all arms,H5 elasticity false alarms,OpenStack-trained baseline vs Threshold alarms,0.0,N/A,N/A,N/A,N/A
+orders,all arms,H5 elasticity false alarms,Similar-application baseline vs Threshold alarms,0.0012254901960784314,1.0,1.0,N/A,N/A
+bookings,all arms,H5 elasticity false alarms,Isolation Forest (source-free) vs DeepLog-style (source-free),-0.07107843137254903,1.4450157667486737e-10,1.4450157667486737e-10,N/A,N/A
+bookings,all arms,H5 elasticity false alarms,Isolation Forest (source-free) vs BGL-trained baseline,0.07352941176470588,1.734723475976807e-18,8.673617379884035e-18,N/A,N/A
+bookings,all arms,H5 elasticity false alarms,Isolation Forest (source-free) vs OpenStack-trained baseline,0.07352941176470588,1.734723475976807e-18,8.673617379884035e-18,N/A,N/A
+bookings,all arms,H5 elasticity false alarms,Isolation Forest (source-free) vs Similar-application baseline,0.07352941176470588,1.734723475976807e-18,8.673617379884035e-18,N/A,N/A
+bookings,all arms,H5 elasticity false alarms,Isolation Forest (source-free) vs Threshold alarms,0.07352941176470588,1.734723475976807e-18,8.673617379884035e-18,N/A,N/A
+bookings,all arms,H5 elasticity false alarms,DeepLog-style (source-free) vs BGL-trained baseline,0.14460784313725492,6.018531076210112e-36,5.416677968589101e-35,N/A,N/A
+bookings,all arms,H5 elasticity false alarms,DeepLog-style (source-free) vs OpenStack-trained baseline,0.14460784313725492,6.018531076210112e-36,5.416677968589101e-35,N/A,N/A
+bookings,all arms,H5 elasticity false alarms,DeepLog-style (source-free) vs Similar-application baseline,0.14460784313725492,6.018531076210112e-36,5.416677968589101e-35,N/A,N/A
+bookings,all arms,H5 elasticity false alarms,DeepLog-style (source-free) vs Threshold alarms,0.14460784313725492,6.018531076210112e-36,5.416677968589101e-35,N/A,N/A
+bookings,all arms,H5 elasticity false alarms,BGL-trained baseline vs OpenStack-trained baseline,0.0,N/A,N/A,N/A,N/A
+bookings,all arms,H5 elasticity false alarms,BGL-trained baseline vs Similar-application baseline,0.0,N/A,N/A,N/A,N/A
+bookings,all arms,H5 elasticity false alarms,BGL-trained baseline vs Threshold alarms,0.0,N/A,N/A,N/A,N/A
+bookings,all arms,H5 elasticity false alarms,OpenStack-trained baseline vs Similar-application baseline,0.0,N/A,N/A,N/A,N/A
+bookings,all arms,H5 elasticity false alarms,OpenStack-trained baseline vs Threshold alarms,0.0,N/A,N/A,N/A,N/A
+bookings,all arms,H5 elasticity false alarms,Similar-application baseline vs Threshold alarms,0.0,N/A,N/A,N/A,N/A

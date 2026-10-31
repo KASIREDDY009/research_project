@@ -1,0 +1,131 @@
+{
+  "note": "The 18 SageMaker scoring jobs of the nine runs (six per set: three pairs of runs, one job per application): name, status, creation and end time, from 'aws sagemaker list-processing-jobs'.",
+  "jobs": [
+    {
+      "set": 1,
+      "job": "sflad-eval-run1-run2-bookings-1108-121942",
+      "status": "Completed",
+      "created": "2026-11-08T12:20:51.578000+05:30",
+      "ended": "2026-11-08T12:24:57.783000+05:30"
+    },
+    {
+      "set": 1,
+      "job": "sflad-eval-run1-run2-orders-1108-121942",
+      "status": "Completed",
+      "created": "2026-11-08T12:20:47.653000+05:30",
+      "ended": "2026-11-08T12:25:32.704000+05:30"
+    },
+    {
+      "set": 1,
+      "job": "sflad-eval-run1-run3-bookings-1108-121942",
+      "status": "Completed",
+      "created": "2026-11-08T12:20:50.117000+05:30",
+      "ended": "2026-11-08T12:24:16.841000+05:30"
+    },
+    {
+      "set": 1,
+      "job": "sflad-eval-run1-run3-orders-1108-121942",
+      "status": "Completed",
+      "created": "2026-11-08T12:20:49.628000+05:30",
+      "ended": "2026-11-08T12:24:42.157000+05:30"
+    },
+    {
+      "set": 1,
+      "job": "sflad-eval-run2-run3-bookings-1108-121942",
+      "status": "Completed",
+      "created": "2026-11-08T12:25:59.984000+05:30",
+      "ended": "2026-11-08T12:30:18.348000+05:30"
+    },
+    {
+      "set": 1,
+      "job": "sflad-eval-run2-run3-orders-1108-121942",
+      "status": "Completed",
+      "created": "2026-11-08T12:20:37.527000+05:30",
+      "ended": "2026-11-08T12:24:09.056000+05:30"
+    },
+    {
+      "set": 2,
+      "job": "sflad-eval-run4-run5-bookings-1111-122132",
+      "status": "Completed",
+      "created": "2026-11-11T12:23:05.649000+05:30",
+      "ended": "2026-11-11T12:26:05.844000+05:30"
+    },
+    {
+      "set": 2,
+      "job": "sflad-eval-run4-run5-orders-1111-122132",
+      "status": "Completed",
+      "created": "2026-11-11T12:23:38.146000+05:30",
+      "ended": "2026-11-11T12:27:12.975000+05:30"
+    },
+    {
+      "set": 2,
+      "job": "sflad-eval-run4-run6-bookings-1111-122132",
+      "status": "Completed",
+      "created": "2026-11-11T12:28:53.892000+05:30",
+      "ended": "2026-11-11T12:32:36.302000+05:30"
+    },
+    {
+      "set": 2,
+      "job": "sflad-eval-run4-run6-orders-1111-122132",
+      "status": "Completed",
+      "created": "2026-11-11T12:23:22.948000+05:30",
+      "ended": "2026-11-11T12:26:30.295000+05:30"
+    },
+    {
+      "set": 2,
+      "job": "sflad-eval-run5-run6-bookings-1111-122132",
+      "status": "Completed",
+      "created": "2026-11-11T12:23:04.239000+05:30",
+      "ended": "2026-11-11T12:28:24.354000+05:30"
+    },
+    {
+      "set": 2,
+      "job": "sflad-eval-run5-run6-orders-1111-122132",
+      "status": "Completed",
+      "created": "2026-11-11T12:23:48.334000+05:30",
+      "ended": "2026-11-11T12:32:30.966000+05:30"
+    },
+    {
+      "set": 3,
+      "job": "sflad-eval-run7-run8-bookings-1114-121923",
+      "status": "Completed",
+      "created": "2026-11-14T12:21:11.974000+05:30",
+      "ended": "2026-11-14T12:24:36.518000+05:30"
+    },
+    {
+      "set": 3,
+      "job": "sflad-eval-run7-run8-orders-1114-121923",
+      "status": "Completed",
+      "created": "2026-11-14T12:21:24.580000+05:30",
+      "ended": "2026-11-14T12:24:51.854000+05:30"
+    },
+    {
+      "set": 3,
+      "job": "sflad-eval-run7-run9-bookings-1114-121923",
+      "status": "Completed",
+      "created": "2026-11-14T12:20:42.627000+05:30",
+      "ended": "2026-11-14T12:24:14.693000+05:30"
+    },
+    {
+      "set": 3,
+      "job": "sflad-eval-run7-run9-orders-1114-121923",
+      "status": "Completed",
+      "created": "2026-11-14T12:21:29.487000+05:30",
+      "ended": "2026-11-14T12:24:56.156000+05:30"
+    },
+    {
+      "set": 3,
+      "job": "sflad-eval-run8-run9-bookings-1114-121923",
+      "status": "Completed",
+      "created": "2026-11-14T12:26:44.007000+05:30",
+      "ended": "2026-11-14T12:30:06.959000+05:30"
+    },
+    {
+      "set": 3,
+      "job": "sflad-eval-run8-run9-orders-1114-121923",
+      "status": "Completed",
+      "created": "2026-11-14T12:21:25.786000+05:30",
+      "ended": "2026-11-14T12:24:49.564000+05:30"
+    }
+  ]
+}

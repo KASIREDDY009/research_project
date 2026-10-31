@@ -1,0 +1,1400 @@
+{
+  "per_run": [
+    {
+      "run": "run1/orders",
+      "injections_per_category": 60,
+      "categories": [
+        "permission",
+        "config",
+        "timeout",
+        "resource",
+        "latency"
+      ],
+      "n_fault_episodes": 300,
+      "n_silent_episodes": 0,
+      "label_stats": {
+        "n": 1491.0,
+        "support_pos": 444.0,
+        "support_neg": 1047.0,
+        "pos_rate": 0.2977867203219316
+      },
+      "arms": {
+        "source_free": {
+          "precision": 0.9299719887955182,
+          "recall": 0.7477477477477478,
+          "f1": 0.8289637952559301,
+          "mcc": 0.7756838864499116,
+          "false_alarm_rate": 0.02387774594078319
+        },
+        "source_free_deeplog": {
+          "precision": 0.8654708520179372,
+          "recall": 0.8693693693693694,
+          "f1": 0.8674157303370786,
+          "mcc": 0.8110149433611356,
+          "false_alarm_rate": 0.05730659025787966
+        },
+        "transfer": {
+          "precision": 0.9967637540453075,
+          "recall": 0.6936936936936937,
+          "f1": 0.8180610889774237,
+          "mcc": 0.7815310289075618,
+          "false_alarm_rate": 0.0009551098376313276
+        },
+        "transfer_openstack": {
+          "precision": 1.0,
+          "recall": 0.3355855855855856,
+          "f1": 0.5025295109612141,
+          "mcc": 0.5116803416808914,
+          "false_alarm_rate": 0.0
+        },
+        "transfer_similar": {
+          "precision": 0.9971590909090909,
+          "recall": 0.7905405405405406,
+          "f1": 0.8819095477386935,
+          "mcc": 0.8502189066707486,
+          "false_alarm_rate": 0.0009551098376313276
+        },
+        "threshold": {
+          "precision": 1.0,
+          "recall": 0.2072072072072072,
+          "f1": 0.34328358208955223,
+          "mcc": 0.39379202097928806,
+          "false_alarm_rate": 0.0
+        },
+        "source_free_forest": {
+          "precision": 0.909433962264151,
+          "recall": 0.5427927927927928,
+          "f1": 0.6798307475317349,
+          "mcc": 0.6218584516408332,
+          "false_alarm_rate": 0.022922636103151862
+        },
+        "novelty_gate": {
+          "precision": 0.9967637540453075,
+          "recall": 0.6936936936936937,
+          "f1": 0.8180610889774237,
+          "mcc": 0.7815310289075618,
+          "false_alarm_rate": 0.0009551098376313276
+        },
+        "source_free_source_features": {
+          "precision": 0.9967637540453075,
+          "recall": 0.6936936936936937,
+          "f1": 0.8180610889774237,
+          "mcc": 0.7815310289075618,
+          "false_alarm_rate": 0.0009551098376313276
+        }
+      },
+      "forfeiture": {
+        "f1:transfer-source_free": -0.010902706278506424,
+        "f1:transfer-source_free_deeplog": -0.04935464135965495,
+        "mcc:transfer-source_free": 0.005847142457650167,
+        "mcc:transfer-source_free_deeplog": -0.02948391445357379,
+        "f1:transfer_openstack-source_free": -0.326434284294716,
+        "f1:transfer_openstack-source_free_deeplog": -0.3648862193758645,
+        "mcc:transfer_openstack-source_free": -0.2640035447690202,
+        "mcc:transfer_openstack-source_free_deeplog": -0.2993346016802442,
+        "f1:transfer_similar-source_free": 0.05294575248276334,
+        "f1:transfer_similar-source_free_deeplog": 0.014493817401614817,
+        "mcc:transfer_similar-source_free": 0.07453502022083702,
+        "mcc:transfer_similar-source_free_deeplog": 0.039203963309613066,
+        "f1:transfer-source_free_source_features": 0.0,
+        "mcc:transfer-source_free_source_features": 0.0
+      }
+    },
+    {
+      "run": "run2/orders",
+      "injections_per_category": 60,
+      "categories": [
+        "permission",
+        "config",
+        "timeout",
+        "resource",
+        "latency"
+      ],
+      "n_fault_episodes": 300,
+      "n_silent_episodes": 0,
+      "label_stats": {
+        "n": 1497.0,
+        "support_pos": 448.0,
+        "support_neg": 1049.0,
+        "pos_rate": 0.29926519706078825
+      },
+      "arms": {
+        "source_free": {
+          "precision": 0.9968553459119497,
+          "recall": 0.7075892857142857,
+          "f1": 0.8276762402088773,
+          "mcc": 0.7911376367790668,
+          "false_alarm_rate": 0.0009532888465204957
+        },
+        "source_free_deeplog": {
+          "precision": 0.8504273504273504,
+          "recall": 0.8883928571428571,
+          "f1": 0.868995633187773,
+          "mcc": 0.8116890302558534,
+          "false_alarm_rate": 0.0667302192564347
+        },
+        "transfer": {
+          "precision": 1.0,
+          "recall": 0.6986607142857143,
+          "f1": 0.8226018396846255,
+          "mcc": 0.7867650416837527,
+          "false_alarm_rate": 0.0
+        },
+        "transfer_openstack": {
+          "precision": 1.0,
+          "recall": 0.3482142857142857,
+          "f1": 0.5165562913907285,
+          "mcc": 0.5219112367883738,
+          "false_alarm_rate": 0.0
+        },
+        "transfer_similar": {
+          "precision": 1.0,
+          "recall": 0.7522321428571429,
+          "f1": 0.8585987261146497,
+          "mcc": 0.8247734892063014,
+          "false_alarm_rate": 0.0
+        },
+        "threshold": {
+          "precision": 1.0,
+          "recall": 0.1875,
+          "f1": 0.3157894736842105,
+          "mcc": 0.3730931704017438,
+          "false_alarm_rate": 0.0
+        },
+        "source_free_forest": {
+          "precision": 0.9814814814814815,
+          "recall": 0.11830357142857142,
+          "f1": 0.21115537848605578,
+          "mcc": 0.2881912862586105,
+          "false_alarm_rate": 0.0009532888465204957
+        },
+        "novelty_gate": {
+          "precision": 1.0,
+          "recall": 0.703125,
+          "f1": 0.8256880733944955,
+          "mcc": 0.7899421282536131,
+          "false_alarm_rate": 0.0
+        },
+        "source_free_source_features": {
+          "precision": 1.0,
+          "recall": 0.6986607142857143,
+          "f1": 0.8226018396846255,
+          "mcc": 0.7867650416837527,
+          "false_alarm_rate": 0.0
+        }
+      },
+      "forfeiture": {
+        "f1:transfer-source_free": -0.0050744005242517876,
+        "f1:transfer-source_free_deeplog": -0.04639379350314743,
+        "mcc:transfer-source_free": -0.004372595095314069,
+        "mcc:transfer-source_free_deeplog": -0.024923988572100653,
+        "f1:transfer_openstack-source_free": -0.31111994881814886,
+        "f1:transfer_openstack-source_free_deeplog": -0.3524393417970445,
+        "mcc:transfer_openstack-source_free": -0.269226399990693,
+        "mcc:transfer_openstack-source_free_deeplog": -0.28977779346747956,
+        "f1:transfer_similar-source_free": 0.0309224859057724,
+        "f1:transfer_similar-source_free_deeplog": -0.01039690707312324,
+        "mcc:transfer_similar-source_free": 0.03363585242723466,
+        "mcc:transfer_similar-source_free_deeplog": 0.013084458950448075,
+        "f1:transfer-source_free_source_features": 0.0,
+        "mcc:transfer-source_free_source_features": 0.0
+      }
+    },
+    {
+      "run": "run3/orders",
+      "injections_per_category": 60,
+      "categories": [
+        "permission",
+        "config",
+        "timeout",
+        "resource",
+        "latency"
+      ],
+      "n_fault_episodes": 300,
+      "n_silent_episodes": 0,
+      "label_stats": {
+        "n": 1495.0,
+        "support_pos": 442.0,
+        "support_neg": 1053.0,
+        "pos_rate": 0.2956521739130435
+      },
+      "arms": {
+        "source_free": {
+          "precision": 0.9465875370919882,
+          "recall": 0.7217194570135747,
+          "f1": 0.8189987163029525,
+          "mcc": 0.769510250052398,
+          "false_alarm_rate": 0.017094017094017096
+        },
+        "source_free_deeplog": {
+          "precision": 0.837953091684435,
+          "recall": 0.8891402714932126,
+          "f1": 0.862788144895719,
+          "mcc": 0.8034686810748188,
+          "false_alarm_rate": 0.0721747388414055
+        },
+        "transfer": {
+          "precision": 1.0,
+          "recall": 0.6945701357466063,
+          "f1": 0.8197596795727636,
+          "mcc": 0.7846283905327073,
+          "false_alarm_rate": 0.0
+        },
+        "transfer_openstack": {
+          "precision": 1.0,
+          "recall": 0.32805429864253394,
+          "f1": 0.4940374787052811,
+          "mcc": 0.5058481520586751,
+          "false_alarm_rate": 0.0
+        },
+        "transfer_similar": {
+          "precision": 1.0,
+          "recall": 0.6945701357466063,
+          "f1": 0.8197596795727636,
+          "mcc": 0.7846283905327073,
+          "false_alarm_rate": 0.0
+        },
+        "threshold": {
+          "precision": 1.0,
+          "recall": 0.2171945701357466,
+          "f1": 0.35687732342007433,
+          "mcc": 0.40432426914505926,
+          "false_alarm_rate": 0.0
+        },
+        "source_free_forest": {
+          "precision": 0.9282700421940928,
+          "recall": 0.497737556561086,
+          "f1": 0.6480117820324006,
+          "mcc": 0.6017154727240851,
+          "false_alarm_rate": 0.016144349477682812
+        },
+        "novelty_gate": {
+          "precision": 0.9967532467532467,
+          "recall": 0.6945701357466063,
+          "f1": 0.8186666666666667,
+          "mcc": 0.7826120001365011,
+          "false_alarm_rate": 0.000949667616334283
+        },
+        "source_free_source_features": {
+          "precision": 1.0,
+          "recall": 0.6945701357466063,
+          "f1": 0.8197596795727636,
+          "mcc": 0.7846283905327073,
+          "false_alarm_rate": 0.0
+        }
+      },
+      "forfeiture": {
+        "f1:transfer-source_free": 0.0007609632698111213,
+        "f1:transfer-source_free_deeplog": -0.043028465322955345,
+        "mcc:transfer-source_free": 0.015118140480309239,
+        "mcc:transfer-source_free_deeplog": -0.01884029054211156,
+        "f1:transfer_openstack-source_free": -0.3249612375976714,
+        "f1:transfer_openstack-source_free_deeplog": -0.3687506661904379,
+        "mcc:transfer_openstack-source_free": -0.263662097993723,
+        "mcc:transfer_openstack-source_free_deeplog": -0.2976205290161438,
+        "f1:transfer_similar-source_free": 0.0007609632698111213,
+        "f1:transfer_similar-source_free_deeplog": -0.043028465322955345,
+        "mcc:transfer_similar-source_free": 0.015118140480309239,
+        "mcc:transfer_similar-source_free_deeplog": -0.01884029054211156,
+        "f1:transfer-source_free_source_features": 0.0,
+        "mcc:transfer-source_free_source_features": 0.0
+      }
+    },
+    {
+      "run": "run4/orders",
+      "injections_per_category": 60,
+      "categories": [
+        "permission",
+        "config",
+        "timeout",
+        "resource",
+        "latency"
+      ],
+      "n_fault_episodes": 300,
+      "n_silent_episodes": 0,
+      "label_stats": {
+        "n": 1490.0,
+        "support_pos": 448.0,
+        "support_neg": 1042.0,
+        "pos_rate": 0.3006711409395973
+      },
+      "arms": {
+        "source_free": {
+          "precision": 0.9536231884057971,
+          "recall": 0.734375,
+          "f1": 0.8297604035308953,
+          "mcc": 0.7816304937390691,
+          "false_alarm_rate": 0.015355086372360844
+        },
+        "source_free_deeplog": {
+          "precision": 0.9044289044289044,
+          "recall": 0.8660714285714286,
+          "f1": 0.8848346636259977,
+          "mcc": 0.8372344387847215,
+          "false_alarm_rate": 0.03934740882917467
+        },
+        "transfer": {
+          "precision": 0.9967948717948718,
+          "recall": 0.6941964285714286,
+          "f1": 0.8184210526315789,
+          "mcc": 0.7812760168984465,
+          "false_alarm_rate": 0.0009596928982725527
+        },
+        "transfer_openstack": {
+          "precision": 1.0,
+          "recall": 0.35044642857142855,
+          "f1": 0.5190082644628099,
+          "mcc": 0.5233950415517438,
+          "false_alarm_rate": 0.0
+        },
+        "transfer_similar": {
+          "precision": 1.0,
+          "recall": 0.6986607142857143,
+          "f1": 0.8226018396846255,
+          "mcc": 0.7864638950305813,
+          "false_alarm_rate": 0.0
+        },
+        "threshold": {
+          "precision": 1.0,
+          "recall": 0.18526785714285715,
+          "f1": 0.3126177024482109,
+          "mcc": 0.3704135370711058,
+          "false_alarm_rate": 0.0
+        },
+        "source_free_forest": {
+          "precision": 0.9230769230769231,
+          "recall": 0.4017857142857143,
+          "f1": 0.5598755832037325,
+          "mcc": 0.5267074266216378,
+          "false_alarm_rate": 0.014395393474088292
+        },
+        "novelty_gate": {
+          "precision": 0.9967948717948718,
+          "recall": 0.6941964285714286,
+          "f1": 0.8184210526315789,
+          "mcc": 0.7812760168984465,
+          "false_alarm_rate": 0.0009596928982725527
+        },
+        "source_free_source_features": {
+          "precision": 0.9967948717948718,
+          "recall": 0.6941964285714286,
+          "f1": 0.8184210526315789,
+          "mcc": 0.7812760168984465,
+          "false_alarm_rate": 0.0009596928982725527
+        }
+      },
+      "forfeiture": {
+        "f1:transfer-source_free": -0.01133935089931637,
+        "f1:transfer-source_free_deeplog": -0.06641361099441878,
+        "mcc:transfer-source_free": -0.0003544768406226195,
+        "mcc:transfer-source_free_deeplog": -0.05595842188627498,
+        "f1:transfer_openstack-source_free": -0.3107521390680854,
+        "f1:transfer_openstack-source_free_deeplog": -0.3658263991631878,
+        "mcc:transfer_openstack-source_free": -0.25823545218732535,
+        "mcc:transfer_openstack-source_free_deeplog": -0.3138393972329777,
+        "f1:transfer_similar-source_free": -0.007158563846269783,
+        "f1:transfer_similar-source_free_deeplog": -0.062232823941372195,
+        "mcc:transfer_similar-source_free": 0.004833401291512218,
+        "mcc:transfer_similar-source_free_deeplog": -0.05077054375414014,
+        "f1:transfer-source_free_source_features": 0.0,
+        "mcc:transfer-source_free_source_features": 0.0
+      }
+    },
+    {
+      "run": "run5/orders",
+      "injections_per_category": 60,
+      "categories": [
+        "permission",
+        "config",
+        "timeout",
+        "resource",
+        "latency"
+      ],
+      "n_fault_episodes": 300,
+      "n_silent_episodes": 0,
+      "label_stats": {
+        "n": 1494.0,
+        "support_pos": 433.0,
+        "support_neg": 1061.0,
+        "pos_rate": 0.2898259705488621
+      },
+      "arms": {
+        "source_free": {
+          "precision": 0.9966996699669967,
+          "recall": 0.6974595842956121,
+          "f1": 0.8206521739130435,
+          "mcc": 0.7858799594554136,
+          "false_alarm_rate": 0.000942507068803016
+        },
+        "source_free_deeplog": {
+          "precision": 0.8414096916299559,
+          "recall": 0.8822170900692841,
+          "f1": 0.8613303269447576,
+          "mcc": 0.8032886940020795,
+          "false_alarm_rate": 0.06786050895381715
+        },
+        "transfer": {
+          "precision": 1.0,
+          "recall": 0.6951501154734411,
+          "f1": 0.8201634877384196,
+          "mcc": 0.7862791685280262,
+          "false_alarm_rate": 0.0
+        },
+        "transfer_openstack": {
+          "precision": 1.0,
+          "recall": 0.3348729792147806,
+          "f1": 0.5017301038062284,
+          "mcc": 0.5132060530515197,
+          "false_alarm_rate": 0.0
+        },
+        "transfer_similar": {
+          "precision": 1.0,
+          "recall": 0.6951501154734411,
+          "f1": 0.8201634877384196,
+          "mcc": 0.7862791685280262,
+          "false_alarm_rate": 0.0
+        },
+        "threshold": {
+          "precision": 1.0,
+          "recall": 0.22401847575057737,
+          "f1": 0.3660377358490566,
+          "mcc": 0.41247858691204936,
+          "false_alarm_rate": 0.0
+        },
+        "source_free_forest": {
+          "precision": 1.0,
+          "recall": 0.10161662817551963,
+          "f1": 0.18448637316561844,
+          "mcc": 0.27268175525911253,
+          "false_alarm_rate": 0.0
+        },
+        "novelty_gate": {
+          "precision": 0.9966887417218543,
+          "recall": 0.6951501154734411,
+          "f1": 0.819047619047619,
+          "mcc": 0.7842407592881206,
+          "false_alarm_rate": 0.000942507068803016
+        },
+        "source_free_source_features": {
+          "precision": 1.0,
+          "recall": 0.6951501154734411,
+          "f1": 0.8201634877384196,
+          "mcc": 0.7862791685280262,
+          "false_alarm_rate": 0.0
+        }
+      },
+      "forfeiture": {
+        "f1:transfer-source_free": -0.0004886861746238313,
+        "f1:transfer-source_free_deeplog": -0.04116683920633801,
+        "mcc:transfer-source_free": 0.0003992090726125941,
+        "mcc:transfer-source_free_deeplog": -0.017009525474053322,
+        "f1:transfer_openstack-source_free": -0.31892207010681506,
+        "f1:transfer_openstack-source_free_deeplog": -0.35960022313852924,
+        "mcc:transfer_openstack-source_free": -0.2726739064038939,
+        "mcc:transfer_openstack-source_free_deeplog": -0.2900826409505598,
+        "f1:transfer_similar-source_free": -0.0004886861746238313,
+        "f1:transfer_similar-source_free_deeplog": -0.04116683920633801,
+        "mcc:transfer_similar-source_free": 0.0003992090726125941,
+        "mcc:transfer_similar-source_free_deeplog": -0.017009525474053322,
+        "f1:transfer-source_free_source_features": 0.0,
+        "mcc:transfer-source_free_source_features": 0.0
+      }
+    },
+    {
+      "run": "run6/orders",
+      "injections_per_category": 60,
+      "categories": [
+        "permission",
+        "config",
+        "timeout",
+        "resource",
+        "latency"
+      ],
+      "n_fault_episodes": 300,
+      "n_silent_episodes": 0,
+      "label_stats": {
+        "n": 1495.0,
+        "support_pos": 447.0,
+        "support_neg": 1048.0,
+        "pos_rate": 0.29899665551839466
+      },
+      "arms": {
+        "source_free": {
+          "precision": 0.9602122015915119,
+          "recall": 0.8098434004474273,
+          "f1": 0.8786407766990292,
+          "mcc": 0.8386864354215874,
+          "false_alarm_rate": 0.01431297709923664
+        },
+        "source_free_deeplog": {
+          "precision": 0.8546255506607929,
+          "recall": 0.8680089485458613,
+          "f1": 0.8612652608213096,
+          "mcc": 0.8014827401756548,
+          "false_alarm_rate": 0.06297709923664122
+        },
+        "transfer": {
+          "precision": 1.0,
+          "recall": 0.6868008948545862,
+          "f1": 0.8143236074270557,
+          "mcc": 0.7783731511712844,
+          "false_alarm_rate": 0.0
+        },
+        "transfer_openstack": {
+          "precision": 1.0,
+          "recall": 0.34451901565995524,
+          "f1": 0.5124792013311148,
+          "mcc": 0.5188870729652117,
+          "false_alarm_rate": 0.0
+        },
+        "transfer_similar": {
+          "precision": 0.9935275080906149,
+          "recall": 0.6868008948545862,
+          "f1": 0.8121693121693122,
+          "mcc": 0.7743463004302193,
+          "false_alarm_rate": 0.0019083969465648854
+        },
+        "threshold": {
+          "precision": 1.0,
+          "recall": 0.19910514541387025,
+          "f1": 0.332089552238806,
+          "mcc": 0.3852380915658119,
+          "false_alarm_rate": 0.0
+        },
+        "source_free_forest": {
+          "precision": 0.9557522123893806,
+          "recall": 0.7248322147651006,
+          "f1": 0.8244274809160306,
+          "mcc": 0.7768398181344,
+          "false_alarm_rate": 0.01431297709923664
+        },
+        "novelty_gate": {
+          "precision": 1.0,
+          "recall": 0.6868008948545862,
+          "f1": 0.8143236074270557,
+          "mcc": 0.7783731511712844,
+          "false_alarm_rate": 0.0
+        },
+        "source_free_source_features": {
+          "precision": 1.0,
+          "recall": 0.6868008948545862,
+          "f1": 0.8143236074270557,
+          "mcc": 0.7783731511712844,
+          "false_alarm_rate": 0.0
+        }
+      },
+      "forfeiture": {
+        "f1:transfer-source_free": -0.0643171692719735,
+        "f1:transfer-source_free_deeplog": -0.046941653394253935,
+        "mcc:transfer-source_free": -0.06031328425030302,
+        "mcc:transfer-source_free_deeplog": -0.023109589004370434,
+        "f1:transfer_openstack-source_free": -0.3661615753679144,
+        "f1:transfer_openstack-source_free_deeplog": -0.3487860594901948,
+        "mcc:transfer_openstack-source_free": -0.31979936245637564,
+        "mcc:transfer_openstack-source_free_deeplog": -0.28259566721044305,
+        "f1:transfer_similar-source_free": -0.06647146452971697,
+        "f1:transfer_similar-source_free_deeplog": -0.0490959486519974,
+        "mcc:transfer_similar-source_free": -0.06434013499136804,
+        "mcc:transfer_similar-source_free_deeplog": -0.027136439745435448,
+        "f1:transfer-source_free_source_features": 0.0,
+        "mcc:transfer-source_free_source_features": 0.0
+      }
+    },
+    {
+      "run": "run7/orders",
+      "injections_per_category": 60,
+      "categories": [
+        "permission",
+        "config",
+        "timeout",
+        "resource",
+        "latency"
+      ],
+      "n_fault_episodes": 300,
+      "n_silent_episodes": 0,
+      "label_stats": {
+        "n": 1491.0,
+        "support_pos": 434.0,
+        "support_neg": 1057.0,
+        "pos_rate": 0.29107981220657275
+      },
+      "arms": {
+        "source_free": {
+          "precision": 0.9591280653950953,
+          "recall": 0.8110599078341014,
+          "f1": 0.8789013732833958,
+          "mcc": 0.8403360487068496,
+          "false_alarm_rate": 0.014191106906338695
+        },
+        "source_free_deeplog": {
+          "precision": 0.8294243070362474,
+          "recall": 0.8963133640552995,
+          "f1": 0.8615725359911407,
+          "mcc": 0.8028169528279187,
+          "false_alarm_rate": 0.07568590350047304
+        },
+        "transfer": {
+          "precision": 1.0,
+          "recall": 0.7188940092165899,
+          "f1": 0.8364611260053619,
+          "mcc": 0.8028104618213343,
+          "false_alarm_rate": 0.0
+        },
+        "transfer_openstack": {
+          "precision": 1.0,
+          "recall": 0.34101382488479265,
+          "f1": 0.5085910652920962,
+          "mcc": 0.5180664642997432,
+          "false_alarm_rate": 0.0
+        },
+        "transfer_similar": {
+          "precision": 1.0,
+          "recall": 0.7903225806451613,
+          "f1": 0.8828828828828829,
+          "mcc": 0.8530387206971642,
+          "false_alarm_rate": 0.0
+        },
+        "threshold": {
+          "precision": 1.0,
+          "recall": 0.2119815668202765,
+          "f1": 0.34980988593155893,
+          "mcc": 0.4002005538408451,
+          "false_alarm_rate": 0.0
+        },
+        "source_free_forest": {
+          "precision": 0.9517241379310345,
+          "recall": 0.6359447004608295,
+          "f1": 0.7624309392265194,
+          "mcc": 0.7146452138402615,
+          "false_alarm_rate": 0.013245033112582781
+        },
+        "novelty_gate": {
+          "precision": 0.9968051118210862,
+          "recall": 0.7188940092165899,
+          "f1": 0.8353413654618473,
+          "mcc": 0.8008118580849872,
+          "false_alarm_rate": 0.000946073793755913
+        },
+        "source_free_source_features": {
+          "precision": 1.0,
+          "recall": 0.7188940092165899,
+          "f1": 0.8364611260053619,
+          "mcc": 0.8028104618213343,
+          "false_alarm_rate": 0.0
+        }
+      },
+      "forfeiture": {
+        "f1:transfer-source_free": -0.04244024727803386,
+        "f1:transfer-source_free_deeplog": -0.025111409985778765,
+        "mcc:transfer-source_free": -0.03752558688551533,
+        "mcc:transfer-source_free_deeplog": -6.491006584341541e-06,
+        "f1:transfer_openstack-source_free": -0.3703103079912996,
+        "f1:transfer_openstack-source_free_deeplog": -0.3529814706990445,
+        "mcc:transfer_openstack-source_free": -0.3222695844071064,
+        "mcc:transfer_openstack-source_free_deeplog": -0.2847504885281754,
+        "f1:transfer_similar-source_free": 0.003981509599487065,
+        "f1:transfer_similar-source_free_deeplog": 0.02131034689174216,
+        "mcc:transfer_similar-source_free": 0.012702671990314607,
+        "mcc:transfer_similar-source_free_deeplog": 0.05022176786924559,
+        "f1:transfer-source_free_source_features": 0.0,
+        "mcc:transfer-source_free_source_features": 0.0
+      }
+    },
+    {
+      "run": "run8/orders",
+      "injections_per_category": 60,
+      "categories": [
+        "permission",
+        "config",
+        "timeout",
+        "resource",
+        "latency"
+      ],
+      "n_fault_episodes": 300,
+      "n_silent_episodes": 0,
+      "label_stats": {
+        "n": 1491.0,
+        "support_pos": 438.0,
+        "support_neg": 1053.0,
+        "pos_rate": 0.2937625754527163
+      },
+      "arms": {
+        "source_free": {
+          "precision": 0.9555555555555556,
+          "recall": 0.6872146118721462,
+          "f1": 0.799468791500664,
+          "mcc": 0.751969411439619,
+          "false_alarm_rate": 0.013295346628679962
+        },
+        "source_free_deeplog": {
+          "precision": 0.8767123287671232,
+          "recall": 0.8767123287671232,
+          "f1": 0.8767123287671232,
+          "mcc": 0.825430277485072,
+          "false_alarm_rate": 0.05128205128205128
+        },
+        "transfer": {
+          "precision": 1.0,
+          "recall": 0.6872146118721462,
+          "f1": 0.8146143437077131,
+          "mcc": 0.7798065835938275,
+          "false_alarm_rate": 0.0
+        },
+        "transfer_openstack": {
+          "precision": 1.0,
+          "recall": 0.3424657534246575,
+          "f1": 0.5102040816326531,
+          "mcc": 0.5185711729492808,
+          "false_alarm_rate": 0.0
+        },
+        "transfer_similar": {
+          "precision": 1.0,
+          "recall": 0.7351598173515982,
+          "f1": 0.8473684210526315,
+          "mcc": 0.8137627583770958,
+          "false_alarm_rate": 0.0
+        },
+        "threshold": {
+          "precision": 1.0,
+          "recall": 0.2054794520547945,
+          "f1": 0.3409090909090909,
+          "mcc": 0.3929880254678229,
+          "false_alarm_rate": 0.0
+        },
+        "source_free_forest": {
+          "precision": 0.9354838709677419,
+          "recall": 0.4634703196347032,
+          "f1": 0.6198473282442748,
+          "mcc": 0.5814575407414613,
+          "false_alarm_rate": 0.013295346628679962
+        },
+        "novelty_gate": {
+          "precision": 1.0,
+          "recall": 0.6872146118721462,
+          "f1": 0.8146143437077131,
+          "mcc": 0.7798065835938275,
+          "false_alarm_rate": 0.0
+        },
+        "source_free_source_features": {
+          "precision": 1.0,
+          "recall": 0.6872146118721462,
+          "f1": 0.8146143437077131,
+          "mcc": 0.7798065835938275,
+          "false_alarm_rate": 0.0
+        }
+      },
+      "forfeiture": {
+        "f1:transfer-source_free": 0.015145552207049162,
+        "f1:transfer-source_free_deeplog": -0.06209798505941011,
+        "mcc:transfer-source_free": 0.027837172154208445,
+        "mcc:transfer-source_free_deeplog": -0.04562369389124454,
+        "f1:transfer_openstack-source_free": -0.2892647098680109,
+        "f1:transfer_openstack-source_free_deeplog": -0.36650824713447017,
+        "mcc:transfer_openstack-source_free": -0.23339823849033825,
+        "mcc:transfer_openstack-source_free_deeplog": -0.30685910453579124,
+        "f1:transfer_similar-source_free": 0.04789962955196758,
+        "f1:transfer_similar-source_free_deeplog": -0.02934390771449169,
+        "mcc:transfer_similar-source_free": 0.061793346937476734,
+        "mcc:transfer_similar-source_free_deeplog": -0.011667519107976254,
+        "f1:transfer-source_free_source_features": 0.0,
+        "mcc:transfer-source_free_source_features": 0.0
+      }
+    },
+    {
+      "run": "run9/orders",
+      "injections_per_category": 60,
+      "categories": [
+        "permission",
+        "config",
+        "timeout",
+        "resource",
+        "latency"
+      ],
+      "n_fault_episodes": 300,
+      "n_silent_episodes": 0,
+      "label_stats": {
+        "n": 1494.0,
+        "support_pos": 435.0,
+        "support_neg": 1059.0,
+        "pos_rate": 0.29116465863453816
+      },
+      "arms": {
+        "source_free": {
+          "precision": 0.9549295774647887,
+          "recall": 0.7793103448275862,
+          "f1": 0.8582278481012658,
+          "mcc": 0.8156889872591034,
+          "false_alarm_rate": 0.015108593012275733
+        },
+        "source_free_deeplog": {
+          "precision": 0.8340425531914893,
+          "recall": 0.9011494252873563,
+          "f1": 0.8662983425414365,
+          "mcc": 0.8095787451303293,
+          "false_alarm_rate": 0.07365439093484419
+        },
+        "transfer": {
+          "precision": 0.9967948717948718,
+          "recall": 0.7149425287356321,
+          "f1": 0.8326639892904953,
+          "mcc": 0.7980015143662597,
+          "false_alarm_rate": 0.0009442870632672333
+        },
+        "transfer_openstack": {
+          "precision": 1.0,
+          "recall": 0.34022988505747126,
+          "f1": 0.5077186963979416,
+          "mcc": 0.517382433671184,
+          "false_alarm_rate": 0.0
+        },
+        "transfer_similar": {
+          "precision": 1.0,
+          "recall": 0.767816091954023,
+          "f1": 0.8686605981794538,
+          "mcc": 0.8372354143967484,
+          "false_alarm_rate": 0.0
+        },
+        "threshold": {
+          "precision": 1.0,
+          "recall": 0.2206896551724138,
+          "f1": 0.3615819209039548,
+          "mcc": 0.40887012816768425,
+          "false_alarm_rate": 0.0
+        },
+        "source_free_forest": {
+          "precision": 0.9399141630901288,
+          "recall": 0.503448275862069,
+          "f1": 0.655688622754491,
+          "mcc": 0.6138403676372084,
+          "false_alarm_rate": 0.013220018885741265
+        },
+        "novelty_gate": {
+          "precision": 0.9936102236421726,
+          "recall": 0.7149425287356321,
+          "f1": 0.8315508021390374,
+          "mcc": 0.7960088271689169,
+          "false_alarm_rate": 0.0018885741265344666
+        },
+        "source_free_source_features": {
+          "precision": 0.9967948717948718,
+          "recall": 0.7149425287356321,
+          "f1": 0.8326639892904953,
+          "mcc": 0.7980015143662597,
+          "false_alarm_rate": 0.0009442870632672333
+        }
+      },
+      "forfeiture": {
+        "f1:transfer-source_free": -0.0255638588107705,
+        "f1:transfer-source_free_deeplog": -0.03363435325094111,
+        "mcc:transfer-source_free": -0.01768747289284378,
+        "mcc:transfer-source_free_deeplog": -0.01157723076406969,
+        "f1:transfer_openstack-source_free": -0.3505091517033242,
+        "f1:transfer_openstack-source_free_deeplog": -0.3585796461434948,
+        "mcc:transfer_openstack-source_free": -0.29830655358791947,
+        "mcc:transfer_openstack-source_free_deeplog": -0.2921963114591454,
+        "f1:transfer_similar-source_free": 0.010432750078188002,
+        "f1:transfer_similar-source_free_deeplog": 0.0023622556380173965,
+        "mcc:transfer_similar-source_free": 0.021546427137644986,
+        "mcc:transfer_similar-source_free_deeplog": 0.027656669266419076,
+        "f1:transfer-source_free_source_features": 0.0,
+        "mcc:transfer-source_free_source_features": 0.0
+      }
+    }
+  ],
+  "aggregate": {
+    "arms": {
+      "source_free": {
+        "precision": {
+          "mean": 0.9615070144643557,
+          "std": 0.021946666544868453,
+          "min": 0.9299719887955182,
+          "max": 0.9968553459119497,
+          "n": 9,
+          "n_undefined": 0
+        },
+        "recall": {
+          "mean": 0.7440354821947202,
+          "std": 0.046635063645395984,
+          "min": 0.6872146118721462,
+          "max": 0.8110599078341014,
+          "n": 9,
+          "n_undefined": 0
+        },
+        "f1": {
+          "mean": 0.8379211243106726,
+          "std": 0.0276958452580891,
+          "min": 0.799468791500664,
+          "max": 0.8789013732833958,
+          "n": 9,
+          "n_undefined": 0
+        },
+        "mcc": {
+          "mean": 0.7945025677003354,
+          "std": 0.030702151858089128,
+          "min": 0.751969411439619,
+          "max": 0.8403360487068496,
+          "n": 9,
+          "n_undefined": 0
+        },
+        "false_alarm_rate": {
+          "mean": 0.012792296552112852,
+          "std": 0.007402929505341131,
+          "min": 0.000942507068803016,
+          "max": 0.02387774594078319,
+          "n": 9,
+          "n_undefined": 0
+        }
+      },
+      "source_free_deeplog": {
+        "precision": {
+          "mean": 0.8549438477604706,
+          "std": 0.024015426620952084,
+          "min": 0.8294243070362474,
+          "max": 0.9044289044289044,
+          "n": 9,
+          "n_undefined": 0
+        },
+        "recall": {
+          "mean": 0.8819305648113103,
+          "std": 0.012749460388054397,
+          "min": 0.8660714285714286,
+          "max": 0.9011494252873563,
+          "n": 9,
+          "n_undefined": 0
+        },
+        "f1": {
+          "mean": 0.8679125519013706,
+          "std": 0.008076099148794346,
+          "min": 0.8612652608213096,
+          "max": 0.8848346636259977,
+          "n": 9,
+          "n_undefined": 0
+        },
+        "mcc": {
+          "mean": 0.8117782781219537,
+          "std": 0.012079153980424891,
+          "min": 0.8014827401756548,
+          "max": 0.8372344387847215,
+          "n": 9,
+          "n_undefined": 0
+        },
+        "false_alarm_rate": {
+          "mean": 0.0630021012325246,
+          "std": 0.011860300902937299,
+          "min": 0.03934740882917467,
+          "max": 0.07568590350047304,
+          "n": 9,
+          "n_undefined": 0
+        }
+      },
+      "transfer": {
+        "precision": {
+          "mean": 0.9989281664038946,
+          "std": 0.0016077754889216296,
+          "min": 0.9967637540453075,
+          "max": 1.0,
+          "n": 9,
+          "n_undefined": 0
+        },
+        "recall": {
+          "mean": 0.6982359036055376,
+          "std": 0.011281546786799391,
+          "min": 0.6868008948545862,
+          "max": 0.7188940092165899,
+          "n": 9,
+          "n_undefined": 0
+        },
+        "f1": {
+          "mean": 0.8218966905594931,
+          "std": 0.007691729384437418,
+          "min": 0.8143236074270557,
+          "max": 0.8364611260053619,
+          "n": 9,
+          "n_undefined": 0
+        },
+        "mcc": {
+          "mean": 0.7866079286114667,
+          "std": 0.008401348583271788,
+          "min": 0.7783731511712844,
+          "max": 0.8028104618213343,
+          "n": 9,
+          "n_undefined": 0
+        },
+        "false_alarm_rate": {
+          "mean": 0.000317676644352346,
+          "std": 0.00047653138216255847,
+          "min": 0.0,
+          "max": 0.0009596928982725527,
+          "n": 9,
+          "n_undefined": 0
+        }
+      },
+      "transfer_openstack": {
+        "precision": {
+          "mean": 1.0,
+          "std": 0.0,
+          "min": 1.0,
+          "max": 1.0,
+          "n": 9,
+          "n_undefined": 0
+        },
+        "recall": {
+          "mean": 0.3406002285283879,
+          "std": 0.006976883252177265,
+          "min": 0.32805429864253394,
+          "max": 0.35044642857142855,
+          "n": 9,
+          "n_undefined": 0
+        },
+        "f1": {
+          "mean": 0.5080949659977853,
+          "std": 0.007776972433033766,
+          "min": 0.4940374787052811,
+          "max": 0.5190082644628099,
+          "n": 9,
+          "n_undefined": 0
+        },
+        "mcc": {
+          "mean": 0.5165497743351803,
+          "std": 0.005449337298138762,
+          "min": 0.5058481520586751,
+          "max": 0.5233950415517438,
+          "n": 9,
+          "n_undefined": 0
+        },
+        "false_alarm_rate": {
+          "mean": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "n": 9,
+          "n_undefined": 0
+        }
+      },
+      "transfer_similar": {
+        "precision": {
+          "mean": 0.998965177666634,
+          "std": 0.0022451670490513625,
+          "min": 0.9935275080906149,
+          "max": 1.0,
+          "n": 9,
+          "n_undefined": 0
+        },
+        "recall": {
+          "mean": 0.7345836704120904,
+          "std": 0.04240273048900373,
+          "min": 0.6868008948545862,
+          "max": 0.7905405405405406,
+          "n": 9,
+          "n_undefined": 0
+        },
+        "f1": {
+          "mean": 0.8460127216814924,
+          "std": 0.02822236153506535,
+          "min": 0.8121693121693122,
+          "max": 0.8828828828828829,
+          "n": 9,
+          "n_undefined": 0
+        },
+        "mcc": {
+          "mean": 0.8123052270966215,
+          "std": 0.03047084335774512,
+          "min": 0.7743463004302193,
+          "max": 0.8530387206971642,
+          "n": 9,
+          "n_undefined": 0
+        },
+        "false_alarm_rate": {
+          "mean": 0.00031816742046624586,
+          "std": 0.0006748276762054716,
+          "min": 0.0,
+          "max": 0.0019083969465648854,
+          "n": 9,
+          "n_undefined": 0
+        }
+      },
+      "threshold": {
+        "precision": {
+          "mean": 1.0,
+          "std": 0.0,
+          "min": 1.0,
+          "max": 1.0,
+          "n": 9,
+          "n_undefined": 0
+        },
+        "recall": {
+          "mean": 0.20649376996641594,
+          "std": 0.013787194181593772,
+          "min": 0.18526785714285715,
+          "max": 0.22401847575057737,
+          "n": 9,
+          "n_undefined": 0
+        },
+        "f1": {
+          "mean": 0.34211069638605723,
+          "std": 0.019022515928050265,
+          "min": 0.3126177024482109,
+          "max": 0.3660377358490566,
+          "n": 9,
+          "n_undefined": 0
+        },
+        "mcc": {
+          "mean": 0.39348870928349006,
+          "std": 0.014901839936790553,
+          "min": 0.3704135370711058,
+          "max": 0.41247858691204936,
+          "n": 9,
+          "n_undefined": 0
+        },
+        "false_alarm_rate": {
+          "mean": 0.0,
+          "std": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "n": 9,
+          "n_undefined": 0
+        }
+      },
+      "source_free_forest": {
+        "precision": {
+          "mean": 0.947237421488326,
+          "std": 0.02875227464488812,
+          "min": 0.909433962264151,
+          "max": 1.0,
+          "n": 9,
+          "n_undefined": 0
+        },
+        "recall": {
+          "mean": 0.44332575266293184,
+          "std": 0.21135069314609617,
+          "min": 0.10161662817551963,
+          "max": 0.7248322147651006,
+          "n": 9,
+          "n_undefined": 0
+        },
+        "f1": {
+          "mean": 0.5717504706178731,
+          "std": 0.22561141433122206,
+          "min": 0.18448637316561844,
+          "max": 0.8244274809160306,
+          "n": 9,
+          "n_undefined": 0
+        },
+        "mcc": {
+          "mean": 0.5553263703175122,
+          "std": 0.1721932306949963,
+          "min": 0.27268175525911253,
+          "max": 0.7768398181344,
+          "n": 9,
+          "n_undefined": 0
+        },
+        "false_alarm_rate": {
+          "mean": 0.01205433818085379,
+          "std": 0.007230898241064969,
+          "min": 0.0,
+          "max": 0.022922636103151862,
+          "n": 9,
+          "n_undefined": 0
+        }
+      },
+      "novelty_gate": {
+        "precision": {
+          "mean": 0.9974906610865043,
+          "std": 0.0021394359377597894,
+          "min": 0.9936102236421726,
+          "max": 1.0,
+          "n": 9,
+          "n_undefined": 0
+        },
+        "recall": {
+          "mean": 0.6987319353515693,
+          "std": 0.01140008089458503,
+          "min": 0.6868008948545862,
+          "max": 0.7188940092165899,
+          "n": 9,
+          "n_undefined": 0
+        },
+        "f1": {
+          "mean": 0.8217460688281597,
+          "std": 0.007448639812065156,
+          "min": 0.8143236074270557,
+          "max": 0.8353413654618473,
+          "n": 9,
+          "n_undefined": 0
+        },
+        "mcc": {
+          "mean": 0.7860669281670288,
+          "std": 0.007813899808527506,
+          "min": 0.7783731511712844,
+          "max": 0.8008118580849872,
+          "n": 9,
+          "n_undefined": 0
+        },
+        "false_alarm_rate": {
+          "mean": 0.000737958371259062,
+          "std": 0.0006308682759140161,
+          "min": 0.0,
+          "max": 0.0018885741265344666,
+          "n": 9,
+          "n_undefined": 0
+        }
+      },
+      "source_free_source_features": {
+        "precision": {
+          "mean": 0.9989281664038946,
+          "std": 0.0016077754889216296,
+          "min": 0.9967637540453075,
+          "max": 1.0,
+          "n": 9,
+          "n_undefined": 0
+        },
+        "recall": {
+          "mean": 0.6982359036055376,
+          "std": 0.011281546786799391,
+          "min": 0.6868008948545862,
+          "max": 0.7188940092165899,
+          "n": 9,
+          "n_undefined": 0
+        },
+        "f1": {
+          "mean": 0.8218966905594931,
+          "std": 0.007691729384437418,
+          "min": 0.8143236074270557,
+          "max": 0.8364611260053619,
+          "n": 9,
+          "n_undefined": 0
+        },
+        "mcc": {
+          "mean": 0.7866079286114667,
+          "std": 0.008401348583271788,
+          "min": 0.7783731511712844,
+          "max": 0.8028104618213343,
+          "n": 9,
+          "n_undefined": 0
+        },
+        "false_alarm_rate": {
+          "mean": 0.000317676644352346,
+          "std": 0.00047653138216255847,
+          "min": 0.0,
+          "max": 0.0009596928982725527,
+          "n": 9,
+          "n_undefined": 0
+        }
+      }
+    },
+    "forfeiture": {
+      "f1:transfer-source_free": {
+        "mean": -0.016024433751179554,
+        "std": 0.02445339058977645,
+        "min": -0.0643171692719735,
+        "max": 0.015145552207049162,
+        "n": 9,
+        "n_undefined": 0
+      },
+      "f1:transfer-source_free_deeplog": {
+        "mean": -0.0460158613418776,
+        "std": 0.012794459980563335,
+        "min": -0.06641361099441878,
+        "max": -0.025111409985778765,
+        "n": 9,
+        "n_undefined": 0
+      },
+      "mcc:transfer-source_free": {
+        "mean": -0.007894639088868708,
+        "std": 0.02705282031977227,
+        "min": -0.06031328425030302,
+        "max": 0.027837172154208445,
+        "n": 9,
+        "n_undefined": 0
+      },
+      "mcc:transfer-source_free_deeplog": {
+        "mean": -0.025170349510487036,
+        "std": 0.0170066910164197,
+        "min": -0.05595842188627498,
+        "max": -6.491006584341541e-06,
+        "n": 9,
+        "n_undefined": 0
+      },
+      "f1:transfer_openstack-source_free": {
+        "mean": -0.3298261583128873,
+        "std": 0.027157084963275395,
+        "min": -0.3703103079912996,
+        "max": -0.2892647098680109,
+        "n": 9,
+        "n_undefined": 0
+      },
+      "f1:transfer_openstack-source_free_deeplog": {
+        "mean": -0.35981758590358537,
+        "std": 0.007165952717529437,
+        "min": -0.3687506661904379,
+        "max": -0.3487860594901948,
+        "n": 9,
+        "n_undefined": 0
+      },
+      "mcc:transfer_openstack-source_free": {
+        "mean": -0.277952793365155,
+        "std": 0.029593269654719492,
+        "min": -0.3222695844071064,
+        "max": -0.23339823849033825,
+        "n": 9,
+        "n_undefined": 0
+      },
+      "mcc:transfer_openstack-source_free_deeplog": {
+        "mean": -0.29522850378677334,
+        "std": 0.010240726015566007,
+        "min": -0.3138393972329777,
+        "max": -0.28259566721044305,
+        "n": 9,
+        "n_undefined": 0
+      },
+      "f1:transfer_similar-source_free": {
+        "mean": 0.00809159737081988,
+        "std": 0.035460849934995,
+        "min": -0.06647146452971697,
+        "max": 0.05294575248276334,
+        "n": 9,
+        "n_undefined": 0
+      },
+      "f1:transfer_similar-source_free_deeplog": {
+        "mean": -0.021899830219878166,
+        "std": 0.029899860850370396,
+        "min": -0.062232823941372195,
+        "max": 0.02131034689174216,
+        "n": 9,
+        "n_undefined": 0
+      },
+      "mcc:transfer_similar-source_free": {
+        "mean": 0.017802659396286002,
+        "std": 0.039796645706093696,
+        "min": -0.06434013499136804,
+        "max": 0.07453502022083702,
+        "n": 9,
+        "n_undefined": 0
+      },
+      "mcc:transfer_similar-source_free_deeplog": {
+        "mean": 0.0005269489746676762,
+        "std": 0.03370314902364863,
+        "min": -0.05077054375414014,
+        "max": 0.05022176786924559,
+        "n": 9,
+        "n_undefined": 0
+      },
+      "f1:transfer-source_free_source_features": {
+        "mean": 0.0,
+        "std": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "n": 9,
+        "n_undefined": 0
+      },
+      "mcc:transfer-source_free_source_features": {
+        "mean": 0.0,
+        "std": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "n": 9,
+        "n_undefined": 0
+      }
+    }
+  }
+}

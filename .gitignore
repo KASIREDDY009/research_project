@@ -1,0 +1,16 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+*.egg-info/
+.DS_Store
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfplan
+terraform.tfvars
+infra/terraform/build/
+sflad-evaluation-runs.tar.gz*
+data/public_corpus/full/BGL.log
+data/public_corpus/full/HDFS.log
+data/public_corpus/full/HDFS_v1.zip

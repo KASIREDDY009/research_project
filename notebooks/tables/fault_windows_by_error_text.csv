@@ -1,0 +1,25 @@
+application,detector,error_text,fault_windows,detected,recall
+orders,Isolation Forest (source-free),with,2771,2771,1.0
+orders,Isolation Forest (source-free),without,1198,182,0.15191986644407346
+orders,DeepLog-style (source-free),with,2771,2771,1.0
+orders,DeepLog-style (source-free),without,1198,729,0.6085141903171953
+orders,BGL-trained baseline,with,2771,2771,1.0
+orders,BGL-trained baseline,without,1198,0,0.0
+orders,OpenStack-trained baseline,with,2771,1352,0.4879105016239625
+orders,OpenStack-trained baseline,without,1198,0,0.0
+orders,Similar-application baseline,with,2771,2755,0.9942259112233851
+orders,Similar-application baseline,without,1198,160,0.1335559265442404
+orders,Threshold alarms,with,2771,819,0.29556116925297726
+orders,Threshold alarms,without,1198,0,0.0
+bookings,Isolation Forest (source-free),with,2711,2711,1.0
+bookings,Isolation Forest (source-free),without,1254,144,0.11483253588516747
+bookings,DeepLog-style (source-free),with,2711,2711,1.0
+bookings,DeepLog-style (source-free),without,1254,363,0.2894736842105263
+bookings,BGL-trained baseline,with,2711,2711,1.0
+bookings,BGL-trained baseline,without,1254,0,0.0
+bookings,OpenStack-trained baseline,with,2711,1325,0.4887495389155293
+bookings,OpenStack-trained baseline,without,1254,0,0.0
+bookings,Similar-application baseline,with,2711,2701,0.9963113242345998
+bookings,Similar-application baseline,without,1254,60,0.04784688995215311
+bookings,Threshold alarms,with,2711,849,0.3131685724824788
+bookings,Threshold alarms,without,1254,0,0.0

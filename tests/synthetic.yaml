@@ -1,0 +1,23 @@
+# Settings of the synthetic logs for the unit tests.
+generator:
+  n_normal_events: 1200
+  n_source_events: 700
+  services:
+  - handler
+  - dynamodb
+  - cloudwatch
+  base_rate_hz: 2.0
+  elasticity_burst_prob: 0.05
+  elasticity_burst_mult: 5.0
+  source_anomaly_rate: 0.05
+injector:
+  fault_rate: 0.015
+  categories:
+  - permission
+  - config
+  - timeout
+  - resource
+  inject_after_frac: 0.5
+  min_fault_gap_events: 80
+  fault_burst_size: 2
+train_frac: 0.5

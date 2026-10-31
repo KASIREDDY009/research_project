@@ -1,0 +1,15 @@
+config: 60 episodes, 0 silent, 0 partly silent
+latency: 60 episodes, 0 silent, 0 partly silent
+permission: 60 episodes, 0 silent, 0 partly silent
+resource: 60 episodes, 0 silent, 0 partly silent
+timeout: 60 episodes, 0 silent, 0 partly silent
+source_free          P=0.980 R=0.673 F1=0.798 MCC=0.757 FAR=0.006
+source_free_deeplog  P=0.819 R=0.865 F1=0.841 MCC=0.772 FAR=0.081
+transfer             P=0.997 R=0.671 F1=0.802 MCC=0.765 FAR=0.001
+transfer_openstack   P=1.000 R=0.117 F1=0.210 MCC=0.292 FAR=0.000
+transfer_similar     P=0.997 R=0.725 F1=0.840 MCC=0.804 FAR=0.001
+threshold            P=1.000 R=0.214 F1=0.353 MCC=0.401 FAR=0.000
+source_free_forest   P=0.977 R=0.477 F1=0.641 MCC=0.613 FAR=0.005
+novelty_gate         P=0.997 R=0.671 F1=0.802 MCC=0.765 FAR=0.001
+source_free_source_features P=0.997 R=0.671 F1=0.802 MCC=0.765 FAR=0.001
+F1 forfeiture (BGL-trained baseline minus source-free Isolation Forest): 0.0038

@@ -1,0 +1,19 @@
+application,detector,fit_seconds,predict_seconds
+orders,Isolation Forest (source-free),0.31040392811110945,0.5733380640000058
+orders,DeepLog-style (source-free),12.76426151688889,1.2131409928888925
+orders,BGL-trained baseline,0.2866074618888869,0.5689208384444461
+orders,OpenStack-trained baseline,3.322252163222228,0.562956516444438
+orders,Similar-application baseline,1.5171272451111122,0.5799141017777869
+orders,Threshold alarms,5.043555559167443e-06,0.0699059088888829
+orders,Isolation Forest alone,0.31204053833333334,0.5749058065555599
+orders,Novelty gate alone,0.15933332155555036,0.5604512781111168
+orders,Source-free detector on the BGL baseline's features,0.2884706148888843,0.5640365804444419
+bookings,Isolation Forest (source-free),0.33205276422221647,0.6145406117777839
+bookings,DeepLog-style (source-free),14.072718097888876,1.2666792424444522
+bookings,BGL-trained baseline,0.30711775455555174,0.6035301726666691
+bookings,OpenStack-trained baseline,3.572265602777782,0.612858076888876
+bookings,Similar-application baseline,1.627416674777777,0.5989913006666667
+bookings,Threshold alarms,5.273444442208428e-06,0.0721406993333302
+bookings,Isolation Forest alone,0.32404185988889683,0.6065240896666574
+bookings,Novelty gate alone,0.15869644755555454,0.5853306853333353
+bookings,Source-free detector on the BGL baseline's features,0.3192322896666692,0.6356808936666659

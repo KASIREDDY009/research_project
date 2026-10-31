@@ -1,0 +1,50 @@
+seed: 6
+features:
+  window_size: 20
+  # Non-overlapping windows: each log line is in one window.
+  step_size: 20
+detectors:
+  # False-alarm target shared by every learned detector's alarm threshold (the Isolation Forests',
+  # DeepLog's top-g and each baseline's), met on the calibration part of the fault-free window.
+  calib_fpr: 0.01
+  # The certified fault-free window is split in time: the earlier lines train the source-free
+  # detectors, the later calib_share of its lines sets every alarm threshold.
+  calib_share: 0.5
+  # Share of the training part used, from its start (1.0 = all; lower values are the clean-data check).
+  train_share: 1.0
+  source_free:
+    n_estimators: 100
+  transfer:
+    n_estimators: 100
+    max_depth: 12
+    class_weight: balanced
+  source_free_deeplog:
+    history: 10
+    hidden: 64
+    layers: 2
+    embed_dim: 32
+    epochs: 30
+    lr: 0.001
+    batch_size: 64
+  threshold:
+    error_keywords:
+    - ERROR
+    - Exception
+    - AccessDenied
+    - Timed out
+    - Throttling
+    - OutOfMemory
+    - Task timed out
+    - ResourceNotFound
+    min_keyword_count: 2
+metrics:
+  eval_sanity:
+    max_pos_rate: 0.85
+    min_pos_rate: 0.05
+    min_negatives: 1
+    min_positives: 1
+analysis:
+  bootstrap_samples: 2000
+  alpha: 0.05
+  # Non-inferiority margin on the F1 forfeiture.
+  viable_forfeiture_f1: 0.10

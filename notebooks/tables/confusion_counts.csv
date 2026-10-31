@@ -1,0 +1,13 @@
+application,detector,tp,fn,fp,tn,fault_windows,fault_free_windows
+orders,Isolation Forest (source-free),2953,1016,121,9348,3969,9469
+orders,DeepLog-style (source-free),3500,469,597,8872,3969,9469
+orders,BGL-trained baseline,2771,1198,3,9466,3969,9469
+orders,OpenStack-trained baseline,1352,2617,0,9469,3969,9469
+orders,Similar-application baseline,2915,1054,3,9466,3969,9469
+orders,Threshold alarms,819,3150,0,9469,3969,9469
+bookings,Isolation Forest (source-free),2855,1110,82,9395,3965,9477
+bookings,DeepLog-style (source-free),3074,891,386,9091,3965,9477
+bookings,BGL-trained baseline,2711,1254,2,9475,3965,9477
+bookings,OpenStack-trained baseline,1325,2640,0,9477,3965,9477
+bookings,Similar-application baseline,2761,1204,1,9476,3965,9477
+bookings,Threshold alarms,849,3116,0,9477,3965,9477

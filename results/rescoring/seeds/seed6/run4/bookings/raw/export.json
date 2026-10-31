@@ -1,0 +1,50 @@
+{
+  "invocations": 7098,
+  "slow_limit_ms": 2913,
+  "faulty_invocations": {
+    "fault": 598
+  },
+  "fault_reasons": {
+    "fault:failed": 478,
+    "fault:slow": 359
+  },
+  "failed_invocations": {
+    "fault": 478
+  },
+  "resent_calls": 0,
+  "exported_lines": 36006,
+  "blank_lines": 0,
+  "lines": 36006,
+  "anomalous_lines": 3109,
+  "orphan_lines": {
+    "fault": 4,
+    "gap": 1
+  },
+  "episodes": {
+    "timeout": {
+      "episodes": 60,
+      "silent": 0,
+      "partial": 0
+    },
+    "config": {
+      "episodes": 60,
+      "silent": 0,
+      "partial": 0
+    },
+    "latency": {
+      "episodes": 60,
+      "silent": 0,
+      "partial": 0
+    },
+    "permission": {
+      "episodes": 60,
+      "silent": 1,
+      "partial": 0
+    },
+    "resource": {
+      "episodes": 60,
+      "silent": 0,
+      "partial": 0
+    }
+  }
+}

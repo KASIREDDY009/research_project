@@ -1,0 +1,109 @@
+application,source_free,baseline,run,set,forfeiture
+orders,Isolation Forest,BGL-trained baseline,run1,1,-0.010902706278506424
+orders,Isolation Forest,BGL-trained baseline,run2,1,-0.0050744005242517876
+orders,Isolation Forest,BGL-trained baseline,run3,1,0.0007609632698111213
+orders,Isolation Forest,BGL-trained baseline,run4,2,-0.01133935089931637
+orders,Isolation Forest,BGL-trained baseline,run5,2,-0.0004886861746238313
+orders,Isolation Forest,BGL-trained baseline,run6,2,-0.0643171692719735
+orders,Isolation Forest,BGL-trained baseline,run7,3,-0.04244024727803386
+orders,Isolation Forest,BGL-trained baseline,run8,3,0.015145552207049162
+orders,Isolation Forest,BGL-trained baseline,run9,3,-0.0255638588107705
+orders,Isolation Forest,OpenStack-trained baseline,run1,1,-0.326434284294716
+orders,Isolation Forest,OpenStack-trained baseline,run2,1,-0.31111994881814886
+orders,Isolation Forest,OpenStack-trained baseline,run3,1,-0.3249612375976714
+orders,Isolation Forest,OpenStack-trained baseline,run4,2,-0.3107521390680854
+orders,Isolation Forest,OpenStack-trained baseline,run5,2,-0.31892207010681506
+orders,Isolation Forest,OpenStack-trained baseline,run6,2,-0.3661615753679144
+orders,Isolation Forest,OpenStack-trained baseline,run7,3,-0.3703103079912996
+orders,Isolation Forest,OpenStack-trained baseline,run8,3,-0.2892647098680109
+orders,Isolation Forest,OpenStack-trained baseline,run9,3,-0.3505091517033242
+orders,Isolation Forest,Similar-application baseline,run1,1,0.05294575248276334
+orders,Isolation Forest,Similar-application baseline,run2,1,0.0309224859057724
+orders,Isolation Forest,Similar-application baseline,run3,1,0.0007609632698111213
+orders,Isolation Forest,Similar-application baseline,run4,2,-0.007158563846269783
+orders,Isolation Forest,Similar-application baseline,run5,2,-0.0004886861746238313
+orders,Isolation Forest,Similar-application baseline,run6,2,-0.06647146452971697
+orders,Isolation Forest,Similar-application baseline,run7,3,0.003981509599487065
+orders,Isolation Forest,Similar-application baseline,run8,3,0.04789962955196758
+orders,Isolation Forest,Similar-application baseline,run9,3,0.010432750078188002
+orders,DeepLog-style,BGL-trained baseline,run1,1,-0.04935464135965495
+orders,DeepLog-style,BGL-trained baseline,run2,1,-0.04639379350314743
+orders,DeepLog-style,BGL-trained baseline,run3,1,-0.043028465322955345
+orders,DeepLog-style,BGL-trained baseline,run4,2,-0.06641361099441878
+orders,DeepLog-style,BGL-trained baseline,run5,2,-0.04116683920633801
+orders,DeepLog-style,BGL-trained baseline,run6,2,-0.046941653394253935
+orders,DeepLog-style,BGL-trained baseline,run7,3,-0.025111409985778765
+orders,DeepLog-style,BGL-trained baseline,run8,3,-0.06209798505941011
+orders,DeepLog-style,BGL-trained baseline,run9,3,-0.03363435325094111
+orders,DeepLog-style,OpenStack-trained baseline,run1,1,-0.3648862193758645
+orders,DeepLog-style,OpenStack-trained baseline,run2,1,-0.3524393417970445
+orders,DeepLog-style,OpenStack-trained baseline,run3,1,-0.3687506661904379
+orders,DeepLog-style,OpenStack-trained baseline,run4,2,-0.3658263991631878
+orders,DeepLog-style,OpenStack-trained baseline,run5,2,-0.35960022313852924
+orders,DeepLog-style,OpenStack-trained baseline,run6,2,-0.3487860594901948
+orders,DeepLog-style,OpenStack-trained baseline,run7,3,-0.3529814706990445
+orders,DeepLog-style,OpenStack-trained baseline,run8,3,-0.36650824713447017
+orders,DeepLog-style,OpenStack-trained baseline,run9,3,-0.3585796461434948
+orders,DeepLog-style,Similar-application baseline,run1,1,0.014493817401614817
+orders,DeepLog-style,Similar-application baseline,run2,1,-0.01039690707312324
+orders,DeepLog-style,Similar-application baseline,run3,1,-0.043028465322955345
+orders,DeepLog-style,Similar-application baseline,run4,2,-0.062232823941372195
+orders,DeepLog-style,Similar-application baseline,run5,2,-0.04116683920633801
+orders,DeepLog-style,Similar-application baseline,run6,2,-0.0490959486519974
+orders,DeepLog-style,Similar-application baseline,run7,3,0.02131034689174216
+orders,DeepLog-style,Similar-application baseline,run8,3,-0.02934390771449169
+orders,DeepLog-style,Similar-application baseline,run9,3,0.0023622556380173965
+bookings,Isolation Forest,BGL-trained baseline,run1,1,-0.03628851781718023
+bookings,Isolation Forest,BGL-trained baseline,run2,1,-0.0014408602150537408
+bookings,Isolation Forest,BGL-trained baseline,run3,1,0.00012072920439454293
+bookings,Isolation Forest,BGL-trained baseline,run4,2,-0.005736043119220602
+bookings,Isolation Forest,BGL-trained baseline,run5,2,-0.02015525798066864
+bookings,Isolation Forest,BGL-trained baseline,run6,2,-0.005388885289099088
+bookings,Isolation Forest,BGL-trained baseline,run7,3,-0.027484063717593932
+bookings,Isolation Forest,BGL-trained baseline,run8,3,-0.020758103684932916
+bookings,Isolation Forest,BGL-trained baseline,run9,3,-0.02020592020592027
+bookings,Isolation Forest,OpenStack-trained baseline,run1,1,-0.35188315845441037
+bookings,Isolation Forest,OpenStack-trained baseline,run2,1,-0.314530612244898
+bookings,Isolation Forest,OpenStack-trained baseline,run3,1,-0.3087862154529718
+bookings,Isolation Forest,OpenStack-trained baseline,run4,2,-0.3081034054188416
+bookings,Isolation Forest,OpenStack-trained baseline,run5,2,-0.32484676107896
+bookings,Isolation Forest,OpenStack-trained baseline,run6,2,-0.3194549687002942
+bookings,Isolation Forest,OpenStack-trained baseline,run7,3,-0.35189524798879046
+bookings,Isolation Forest,OpenStack-trained baseline,run8,3,-0.32864677984131907
+bookings,Isolation Forest,OpenStack-trained baseline,run9,3,-0.3280515852917898
+bookings,Isolation Forest,Similar-application baseline,run1,1,-0.03628851781718023
+bookings,Isolation Forest,Similar-application baseline,run2,1,-0.0014408602150537408
+bookings,Isolation Forest,Similar-application baseline,run3,1,0.02939653814122034
+bookings,Isolation Forest,Similar-application baseline,run4,2,-0.011051373954599764
+bookings,Isolation Forest,Similar-application baseline,run5,2,-0.021769606455018686
+bookings,Isolation Forest,Similar-application baseline,run6,2,0.004273916256949173
+bookings,Isolation Forest,Similar-application baseline,run7,3,0.0032680614864819546
+bookings,Isolation Forest,Similar-application baseline,run8,3,-0.020758103684932916
+bookings,Isolation Forest,Similar-application baseline,run9,3,-0.004458172458172482
+bookings,DeepLog-style,BGL-trained baseline,run1,1,-0.04656500075494485
+bookings,DeepLog-style,BGL-trained baseline,run2,1,0.02558458178580869
+bookings,DeepLog-style,BGL-trained baseline,run3,1,-0.00011551345731775076
+bookings,DeepLog-style,BGL-trained baseline,run4,2,-0.011893095312078494
+bookings,DeepLog-style,BGL-trained baseline,run5,2,0.023507598698968124
+bookings,DeepLog-style,BGL-trained baseline,run6,2,-0.061376823840910366
+bookings,DeepLog-style,BGL-trained baseline,run7,3,-0.03953565206944187
+bookings,DeepLog-style,BGL-trained baseline,run8,3,0.01512173642211978
+bookings,DeepLog-style,BGL-trained baseline,run9,3,-0.032477729125773847
+bookings,DeepLog-style,OpenStack-trained baseline,run1,1,-0.362159641392175
+bookings,DeepLog-style,OpenStack-trained baseline,run2,1,-0.28750517024403555
+bookings,DeepLog-style,OpenStack-trained baseline,run3,1,-0.3090224581146841
+bookings,DeepLog-style,OpenStack-trained baseline,run4,2,-0.3142604576116995
+bookings,DeepLog-style,OpenStack-trained baseline,run5,2,-0.2811839043993232
+bookings,DeepLog-style,OpenStack-trained baseline,run6,2,-0.3754429072521055
+bookings,DeepLog-style,OpenStack-trained baseline,run7,3,-0.3639468363406384
+bookings,DeepLog-style,OpenStack-trained baseline,run8,3,-0.2927669397342664
+bookings,DeepLog-style,OpenStack-trained baseline,run9,3,-0.34032339421164337
+bookings,DeepLog-style,Similar-application baseline,run1,1,-0.04656500075494485
+bookings,DeepLog-style,Similar-application baseline,run2,1,0.02558458178580869
+bookings,DeepLog-style,Similar-application baseline,run3,1,0.029160295479508047
+bookings,DeepLog-style,Similar-application baseline,run4,2,-0.017208426147457656
+bookings,DeepLog-style,Similar-application baseline,run5,2,0.021893250224618077
+bookings,DeepLog-style,Similar-application baseline,run6,2,-0.051714022294862105
+bookings,DeepLog-style,Similar-application baseline,run7,3,-0.008783526865365987
+bookings,DeepLog-style,Similar-application baseline,run8,3,0.01512173642211978
+bookings,DeepLog-style,Similar-application baseline,run9,3,-0.01672998137802606
